@@ -16,9 +16,11 @@ def main():
     # Create a map of English project slugs and URLs
     # Extract project slug from URL (last part after final /)
     english_projects = {}
+    english_slugs_list = []
     for p in english_data['projects']:
         slug = p['url'].split('/')[-1]
         english_projects[slug] = p['url']
+        english_slugs_list.append((slug, p['url']))
 
     # Also try to match by converting Norwegian slug or project name
     english_names = {p['name'].lower(): p['url'] for p in english_data['projects']}
@@ -32,7 +34,7 @@ def main():
         has_english = False
         english_url = ''
 
-        # Try to match by slug
+        # Try to match by exact slug
         if norwegian_slug in english_projects:
             has_english = True
             english_url = english_projects[norwegian_slug]
@@ -40,6 +42,14 @@ def main():
         elif project['name'].lower() in english_names:
             has_english = True
             english_url = english_names[project['name'].lower()]
+        # Try partial slug matching (English slug is prefix of Norwegian slug)
+        else:
+            for en_slug, en_url in english_slugs_list:
+                # Check if English slug is at the start of Norwegian slug
+                if norwegian_slug.startswith(en_slug + '-') or norwegian_slug == en_slug:
+                    has_english = True
+                    english_url = en_url
+                    break
 
         # Extract research groups
         research_groups = ', '.join([g['name'] for g in project.get('related_research_groups', [])])
