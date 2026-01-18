@@ -203,6 +203,149 @@ p {
     font-weight: 600;
 }
 
+.challenge-banner {
+    padding: 15px;
+    margin-bottom: 20px;
+    background: #fff3cd;
+    border: 2px solid #ffc107;
+    border-radius: 10px;
+    font-weight: bold;
+    color: #856404;
+    text-align: center;
+}
+
+.challenge-result {
+    padding: 20px;
+    margin: 20px 0;
+    background: #f5f5f5;
+    border-radius: 10px;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.challenge-result.beat {
+    background: #d4edda;
+    color: #155724;
+    border: 2px solid #4caf50;
+}
+
+.challenge-result.tie {
+    background: #d1ecf1;
+    color: #0c5460;
+    border: 2px solid #17a2b8;
+}
+
+.challenge-result.lost {
+    background: #f8d7da;
+    color: #721c24;
+    border: 2px solid #f44336;
+}
+
+.challenge-section {
+    margin: 30px 0;
+    padding: 25px;
+    background: #f8f9fa;
+    border-radius: 10px;
+    border: 2px solid #e0e0e0;
+}
+
+.challenge-section h3 {
+    color: #667eea;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.challenge-section p {
+    margin-bottom: 20px;
+    font-size: 1em;
+}
+
+.share-buttons {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 15px;
+}
+
+.share-button {
+    background: #667eea;
+    padding: 12px 25px;
+    font-size: 1em;
+    text-transform: none;
+}
+
+.share-button:hover {
+    background: #5568d3;
+}
+
+.copy-feedback {
+    color: #4caf50;
+    font-weight: bold;
+    margin-top: 15px;
+    font-size: 1em;
+}
+
+.answers-summary {
+    margin: 30px 0;
+    text-align: left;
+}
+
+.answers-summary h3 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.summary-item {
+    margin-bottom: 20px;
+    padding: 15px;
+    background: #f5f5f5;
+    border-radius: 10px;
+    border-left: 4px solid #e0e0e0;
+}
+
+.summary-item.correct {
+    border-left-color: #4caf50;
+    background: #f1f8f4;
+}
+
+.summary-item.incorrect {
+    border-left-color: #f44336;
+    background: #fef5f5;
+}
+
+.summary-question {
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.summary-answer {
+    margin-top: 8px;
+    font-size: 0.95em;
+}
+
+.summary-answer.correct {
+    color: #2e7d32;
+}
+
+.summary-answer.incorrect {
+    color: #c62828;
+}
+
+.result-icon {
+    display: inline-block;
+    margin-right: 8px;
+    font-size: 1.2em;
+}
+
+.correct-answer-label {
+    margin-top: 8px;
+    color: #4caf50;
+    font-weight: 600;
+}
+
 @media (max-width: 600px) {
     #quiz-container {
         padding: 20px;
