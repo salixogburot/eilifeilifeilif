@@ -398,6 +398,10 @@
             const groupsFilter = document.getElementById('filterResearchGroups').value;
             const searchText = document.getElementById('filterSearch').value.toLowerCase();
 
+            // Detect column names
+            const hasEnglishCol = 'Has EN' in allProjects[0] ? 'Has EN' : 'Has English';
+            const hasGroupsCol = 'Missing Group EN?' in allProjects[0] ? 'Missing Group EN?' : 'Has Research Groups';
+
             filteredProjects = allProjects.filter(project => {
                 // Status filter
                 if (statusFilter) {
@@ -412,20 +416,28 @@
 
                 // English filter
                 if (englishFilter) {
-                    if (englishFilter === 'yes' && project['Has English'] !== 'Yes') {
+                    const hasEnglish = project[hasEnglishCol] === 'Yes' || project[hasEnglishCol] === 'TRUE' || project[hasEnglishCol] === true || project[hasEnglishCol] === 'X';
+                    if (englishFilter === 'yes' && !hasEnglish) {
                         return false;
                     }
-                    if (englishFilter === 'no' && project['Has English'] !== 'No') {
+                    if (englishFilter === 'no' && hasEnglish) {
                         return false;
                     }
                 }
 
                 // Research groups filter
                 if (groupsFilter) {
-                    if (groupsFilter === 'yes' && project['Has Research Groups'] !== 'Yes') {
+                    let missingGroups = false;
+                    if (hasGroupsCol === 'Missing Group EN?') {
+                        missingGroups = project[hasGroupsCol] === 'X' || project[hasGroupsCol] === 'Yes' || project[hasGroupsCol] === true;
+                    } else {
+                        missingGroups = project[hasGroupsCol] === 'No' || !project[hasGroupsCol];
+                    }
+
+                    if (groupsFilter === 'yes' && missingGroups) {
                         return false;
                     }
-                    if (groupsFilter === 'no' && project['Has Research Groups'] !== 'No') {
+                    if (groupsFilter === 'no' && !missingGroups) {
                         return false;
                     }
                 }
@@ -462,11 +474,25 @@
         }
 
         function updateStats(projects) {
-            const withEnglish = projects.filter(p => p['Has English'] === 'Yes').length;
-            const withoutEnglish = projects.filter(p => p['Has English'] === 'No').length;
+            // Support both old and new column names
+            const hasEnglishCol = 'Has EN' in projects[0] ? 'Has EN' : 'Has English';
+            const hasGroupsCol = 'Missing Group EN?' in projects[0] ? 'Missing Group EN?' : 'Has Research Groups';
+
+            const withEnglish = projects.filter(p =>
+                p[hasEnglishCol] === 'Yes' || p[hasEnglishCol] === 'TRUE' || p[hasEnglishCol] === true || p[hasEnglishCol] === 'X'
+            ).length;
+            const withoutEnglish = projects.filter(p =>
+                p[hasEnglishCol] === 'No' || p[hasEnglishCol] === 'FALSE' || p[hasEnglishCol] === false || p[hasEnglishCol] === '' || !p[hasEnglishCol]
+            ).length;
             const ongoing = projects.filter(p => p.Status === 'pågående' || p.Status === 'ongoing').length;
             const ended = projects.filter(p => p.Status === 'avsluttet' || p.Status === 'ended').length;
-            const withoutGroups = projects.filter(p => p['Has Research Groups'] === 'No').length;
+
+            const withoutGroups = projects.filter(p => {
+                if (hasGroupsCol === 'Missing Group EN?') {
+                    return p[hasGroupsCol] === 'X' || p[hasGroupsCol] === 'Yes' || p[hasGroupsCol] === true;
+                }
+                return p[hasGroupsCol] === 'No' || !p[hasGroupsCol];
+            }).length;
 
             const statsHtml = `
                 <div class="stat-card">
@@ -498,15 +524,28 @@
         }
 
         function createCharts(projects) {
-            const withEnglish = projects.filter(p => p['Has English'] === 'Yes').length;
-            const withoutEnglish = projects.filter(p => p['Has English'] === 'No').length;
+            // Detect column names
+            const hasEnglishCol = 'Has EN' in projects[0] ? 'Has EN' : 'Has English';
+            const hasGroupsCol = 'Missing Group EN?' in projects[0] ? 'Missing Group EN?' : 'Has Research Groups';
+
+            const withEnglish = projects.filter(p =>
+                p[hasEnglishCol] === 'Yes' || p[hasEnglishCol] === 'TRUE' || p[hasEnglishCol] === true || p[hasEnglishCol] === 'X'
+            ).length;
+            const withoutEnglish = projects.length - withEnglish;
 
             const ongoing = projects.filter(p => p.Status === 'pågående' || p.Status === 'ongoing').length;
             const ended = projects.filter(p => p.Status === 'avsluttet' || p.Status === 'ended').length;
             const unknown = projects.length - ongoing - ended;
 
-            const withGroups = projects.filter(p => p['Has Research Groups'] === 'Yes').length;
-            const withoutGroups = projects.filter(p => p['Has Research Groups'] === 'No').length;
+            let withGroups, withoutGroups;
+            if (hasGroupsCol === 'Missing Group EN?') {
+                // X means missing, so invert
+                withoutGroups = projects.filter(p => p[hasGroupsCol] === 'X' || p[hasGroupsCol] === 'Yes' || p[hasGroupsCol] === true).length;
+                withGroups = projects.length - withoutGroups;
+            } else {
+                withGroups = projects.filter(p => p[hasGroupsCol] === 'Yes').length;
+                withoutGroups = projects.length - withGroups;
+            }
 
             const withDates = projects.filter(p => p['Start Date'] && p['End Date']).length;
             const withoutDates = projects.length - withDates;
@@ -583,15 +622,28 @@
         }
 
         function updateCharts(projects) {
-            const withEnglish = projects.filter(p => p['Has English'] === 'Yes').length;
-            const withoutEnglish = projects.filter(p => p['Has English'] === 'No').length;
+            // Detect column names
+            const hasEnglishCol = 'Has EN' in projects[0] ? 'Has EN' : 'Has English';
+            const hasGroupsCol = 'Missing Group EN?' in projects[0] ? 'Missing Group EN?' : 'Has Research Groups';
+
+            const withEnglish = projects.filter(p =>
+                p[hasEnglishCol] === 'Yes' || p[hasEnglishCol] === 'TRUE' || p[hasEnglishCol] === true || p[hasEnglishCol] === 'X'
+            ).length;
+            const withoutEnglish = projects.length - withEnglish;
 
             const ongoing = projects.filter(p => p.Status === 'pågående' || p.Status === 'ongoing').length;
             const ended = projects.filter(p => p.Status === 'avsluttet' || p.Status === 'ended').length;
             const unknown = projects.length - ongoing - ended;
 
-            const withGroups = projects.filter(p => p['Has Research Groups'] === 'Yes').length;
-            const withoutGroups = projects.filter(p => p['Has Research Groups'] === 'No').length;
+            let withGroups, withoutGroups;
+            if (hasGroupsCol === 'Missing Group EN?') {
+                // X means missing, so invert
+                withoutGroups = projects.filter(p => p[hasGroupsCol] === 'X' || p[hasGroupsCol] === 'Yes' || p[hasGroupsCol] === true).length;
+                withGroups = projects.length - withoutGroups;
+            } else {
+                withGroups = projects.filter(p => p[hasGroupsCol] === 'Yes').length;
+                withoutGroups = projects.length - withGroups;
+            }
 
             const withDates = projects.filter(p => p['Start Date'] && p['End Date']).length;
             const withoutDates = projects.length - withDates;
@@ -610,17 +662,36 @@
         }
 
         function populateTable(projects) {
+            if (projects.length === 0) {
+                document.getElementById('projectsTableBody').innerHTML = '<tr><td colspan="7">No projects found</td></tr>';
+                return;
+            }
+
+            // Detect column names
+            const hasEnglishCol = 'Has EN' in projects[0] ? 'Has EN' : 'Has English';
+            const hasGroupsCol = 'Missing Group EN?' in projects[0] ? 'Missing Group EN?' : 'Has Research Groups';
+            const urlNoCol = 'URL NO' in projects[0] ? 'URL NO' : 'Norwegian URL';
+            const urlEnCol = 'URL EN' in projects[0] ? 'URL EN' : 'English URL';
+
             const tbody = document.getElementById('projectsTableBody');
             tbody.innerHTML = projects.map(p => {
                 const status = p.Status || 'unknown';
                 const statusClass = status.toLowerCase().replace(/\s+/g, '-');
-                const hasEnglish = p['Has English'] === 'Yes';
-                const hasGroups = p['Has Research Groups'] === 'Yes';
 
-                const norwegianLink = p['Norwegian URL'] ?
-                    `<a href="${p['Norwegian URL']}" target="_blank">NO</a>` : '';
-                const englishLink = p['English URL'] ?
-                    `<a href="${p['English URL']}" target="_blank">EN</a>` : '';
+                const hasEnglish = p[hasEnglishCol] === 'Yes' || p[hasEnglishCol] === 'TRUE' || p[hasEnglishCol] === true || p[hasEnglishCol] === 'X';
+
+                let hasGroups = false;
+                if (hasGroupsCol === 'Missing Group EN?') {
+                    // If using "Missing Group EN?", X means missing, so invert
+                    hasGroups = !(p[hasGroupsCol] === 'X' || p[hasGroupsCol] === 'Yes' || p[hasGroupsCol] === true);
+                } else {
+                    hasGroups = p[hasGroupsCol] === 'Yes';
+                }
+
+                const norwegianLink = p[urlNoCol] ?
+                    `<a href="${p[urlNoCol]}" target="_blank">NO</a>` : '';
+                const englishLink = p[urlEnCol] ?
+                    `<a href="${p[urlEnCol]}" target="_blank">EN</a>` : '';
 
                 return `
                     <tr>
