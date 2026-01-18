@@ -365,7 +365,7 @@
 
         async function loadData() {
             try {
-                const response = await fetch('data/cicero_projects.xlsx');
+                const response = await fetch('data/cicero_projects_overview_v5.xlsx');
                 const arrayBuffer = await response.arrayBuffer();
                 const workbook = XLSX.read(arrayBuffer, { type: 'array' });
 

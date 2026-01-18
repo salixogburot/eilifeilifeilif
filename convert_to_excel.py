@@ -74,7 +74,7 @@ def main():
     df = pd.DataFrame(projects_list)
 
     # Create Excel writer object
-    output_file = 'data/cicero_projects.xlsx'
+    output_file = 'data/cicero_projects_overview_v5.xlsx'
     with pd.ExcelWriter(output_file, engine='openpyxl') as writer:
         # Write all projects
         df.to_excel(writer, sheet_name='All Projects', index=False)

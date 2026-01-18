@@ -30,7 +30,7 @@ The dashboard dynamically updates charts and statistics based on your filters.
 - **Direct Links**: Quick access to Norwegian and English project pages
 
 ### Data Management
-- **Excel-Based**: Uses Excel file (`cicero_projects.xlsx`) for easy data updates
+- **Excel-Based**: Uses Excel file (`cicero_projects_overview_v5.xlsx`) for easy data updates
 - **Multiple Sheets**:
   - All Projects
   - No English
@@ -45,7 +45,7 @@ Open `cicero-projects.html` in a web browser to view the interactive dashboard.
 
 ## Data Source
 
-The dashboard reads from `data/cicero_projects.xlsx`, which contains:
+The dashboard reads from `data/cicero_projects_overview_v5.xlsx`, which contains:
 - **140 total projects** from CICERO
 - **59 projects** with English translations
 - **81 projects** Norwegian-only
