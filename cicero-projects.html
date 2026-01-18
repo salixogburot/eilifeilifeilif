@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CICERO Projects Data Visualization</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        h1 {
+            text-align: center;
+            color: white;
+            margin-bottom: 30px;
+            font-size: 2.5em;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+
+        .stats-overview {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+
+        .stat-card {
+            background: white;
+            padding: 25px;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+
+        .stat-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .stat-number {
+            font-size: 3em;
+            font-weight: bold;
+            color: #667eea;
+            margin-bottom: 10px;
+        }
+
+        .stat-label {
+            font-size: 1em;
+            color: #666;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .charts-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+            gap: 30px;
+            margin-bottom: 30px;
+        }
+
+        .chart-container {
+            background: white;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+        }
+
+        .chart-title {
+            font-size: 1.4em;
+            color: #333;
+            margin-bottom: 20px;
+            text-align: center;
+            font-weight: 600;
+        }
+
+        .table-container {
+            background: white;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            overflow-x: auto;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #e0e0e0;
+        }
+
+        th {
+            background-color: #667eea;
+            color: white;
+            font-weight: 600;
+            position: sticky;
+            top: 0;
+        }
+
+        tr:hover {
+            background-color: #f5f5f5;
+        }
+
+        .badge {
+            padding: 4px 12px;
+            border-radius: 12px;
+            font-size: 0.85em;
+            font-weight: 600;
+        }
+
+        .badge-yes {
+            background-color: #4caf50;
+            color: white;
+        }
+
+        .badge-no {
+            background-color: #f44336;
+            color: white;
+        }
+
+        .badge-ongoing {
+            background-color: #2196F3;
+            color: white;
+        }
+
+        .badge-ended {
+            background-color: #9e9e9e;
+            color: white;
+        }
+
+        .badge-unknown {
+            background-color: #ff9800;
+            color: white;
+        }
+
+        .loading {
+            text-align: center;
+            color: white;
+            font-size: 1.5em;
+            padding: 50px;
+        }
+
+        a {
+            color: #667eea;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>CICERO Projects Data Analysis</h1>
+
+        <div id="loading" class="loading">Loading data...</div>
+
+        <div id="content" style="display: none;">
+            <div class="stats-overview" id="statsOverview"></div>
+
+            <div class="charts-grid">
+                <div class="chart-container">
+                    <div class="chart-title">Language Availability</div>
+                    <canvas id="languageChart"></canvas>
+                </div>
+
+                <div class="chart-container">
+                    <div class="chart-title">Project Status</div>
+                    <canvas id="statusChart"></canvas>
+                </div>
+
+                <div class="chart-container">
+                    <div class="chart-title">Research Group Connections</div>
+                    <canvas id="groupChart"></canvas>
+                </div>
+
+                <div class="chart-container">
+                    <div class="chart-title">Projects with Date Information</div>
+                    <canvas id="dateChart"></canvas>
+                </div>
+            </div>
+
+            <div class="table-container">
+                <div class="chart-title">Projects Without English Pages</div>
+                <table id="noEnglishTable">
+                    <thead>
+                        <tr>
+                            <th>Project Name</th>
+                            <th>Status</th>
+                            <th>Research Groups</th>
+                            <th>URL</th>
+                        </tr>
+                    </thead>
+                    <tbody id="noEnglishTableBody"></tbody>
+                </table>
+            </div>
+
+            <br>
+
+            <div class="table-container">
+                <div class="chart-title">Projects Without Research Group Connections</div>
+                <table id="noGroupsTable">
+                    <thead>
+                        <tr>
+                            <th>Project Name</th>
+                            <th>Status</th>
+                            <th>Has English</th>
+                            <th>URL</th>
+                        </tr>
+                    </thead>
+                    <tbody id="noGroupsTableBody"></tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        async function loadData() {
+            try {
+                const [norwegianData, englishData] = await Promise.all([
+                    fetch('data/cicero_projects_cleaned.json').then(r => r.json()),
+                    fetch('data/cicero_projects_en_latest.json').then(r => r.json())
+                ]);
+
+                analyzeAndVisualize(norwegianData, englishData);
+            } catch (error) {
+                document.getElementById('loading').textContent = 'Error loading data: ' + error.message;
+            }
+        }
+
+        function analyzeAndVisualize(norwegianData, englishData) {
+            const norwegianProjects = norwegianData.projects;
+            const englishProjects = englishData.projects;
+
+            // Create a map of English project URLs for quick lookup
+            const englishUrls = new Set(englishProjects.map(p => p.url.replace('/en/', '/no/')));
+
+            // Analyze projects
+            const projectsWithEnglish = norwegianProjects.filter(p =>
+                englishUrls.has(p.url)
+            );
+
+            const projectsWithoutEnglish = norwegianProjects.filter(p =>
+                !englishUrls.has(p.url)
+            );
+
+            const projectsWithoutGroups = norwegianProjects.filter(p =>
+                !p.related_research_groups || p.related_research_groups.length === 0
+            );
+
+            // Status analysis
+            const statusCounts = {
+                ongoing: 0,
+                ended: 0,
+                unknown: 0
+            };
+
+            norwegianProjects.forEach(p => {
+                if (p.status === 'pågående' || p.status === 'ongoing') {
+                    statusCounts.ongoing++;
+                } else if (p.status === 'avsluttet' || p.status === 'ended') {
+                    statusCounts.ended++;
+                } else {
+                    statusCounts.unknown++;
+                }
+            });
+
+            // Date information
+            const projectsWithDates = norwegianProjects.filter(p => p.start_date && p.end_date).length;
+            const projectsWithoutDates = norwegianProjects.length - projectsWithDates;
+
+            // Display stats
+            displayStats({
+                total: norwegianProjects.length,
+                withEnglish: projectsWithEnglish.length,
+                withoutEnglish: projectsWithoutEnglish.length,
+                withoutGroups: projectsWithoutGroups.length,
+                ongoing: statusCounts.ongoing,
+                ended: statusCounts.ended
+            });
+
+            // Create charts
+            createLanguageChart(projectsWithEnglish.length, projectsWithoutEnglish.length);
+            createStatusChart(statusCounts);
+            createGroupChart(projectsWithoutGroups.length, norwegianProjects.length - projectsWithoutGroups.length);
+            createDateChart(projectsWithDates, projectsWithoutDates);
+
+            // Populate tables
+            populateNoEnglishTable(projectsWithoutEnglish, englishUrls);
+            populateNoGroupsTable(projectsWithoutGroups, englishUrls);
+
+            // Hide loading, show content
+            document.getElementById('loading').style.display = 'none';
+            document.getElementById('content').style.display = 'block';
+        }
+
+        function displayStats(stats) {
+            const statsHtml = `
+                <div class="stat-card">
+                    <div class="stat-number">${stats.total}</div>
+                    <div class="stat-label">Total Projects</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">${stats.withEnglish}</div>
+                    <div class="stat-label">With English</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">${stats.withoutEnglish}</div>
+                    <div class="stat-label">No English</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">${stats.ongoing}</div>
+                    <div class="stat-label">Ongoing</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">${stats.ended}</div>
+                    <div class="stat-label">Ended</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">${stats.withoutGroups}</div>
+                    <div class="stat-label">No Research Groups</div>
+                </div>
+            `;
+            document.getElementById('statsOverview').innerHTML = statsHtml;
+        }
+
+        function createLanguageChart(withEnglish, withoutEnglish) {
+            const ctx = document.getElementById('languageChart').getContext('2d');
+            new Chart(ctx, {
+                type: 'doughnut',
+                data: {
+                    labels: ['Has English Page', 'No English Page'],
+                    datasets: [{
+                        data: [withEnglish, withoutEnglish],
+                        backgroundColor: ['#4caf50', '#f44336'],
+                        borderWidth: 2,
+                        borderColor: '#fff'
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    plugins: {
+                        legend: {
+                            position: 'bottom',
+                        }
+                    }
+                }
+            });
+        }
+
+        function createStatusChart(statusCounts) {
+            const ctx = document.getElementById('statusChart').getContext('2d');
+            new Chart(ctx, {
+                type: 'pie',
+                data: {
+                    labels: ['Ongoing', 'Ended', 'Unknown'],
+                    datasets: [{
+                        data: [statusCounts.ongoing, statusCounts.ended, statusCounts.unknown],
+                        backgroundColor: ['#2196F3', '#9e9e9e', '#ff9800'],
+                        borderWidth: 2,
+                        borderColor: '#fff'
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    plugins: {
+                        legend: {
+                            position: 'bottom',
+                        }
+                    }
+                }
+            });
+        }
+
+        function createGroupChart(withoutGroups, withGroups) {
+            const ctx = document.getElementById('groupChart').getContext('2d');
+            new Chart(ctx, {
+                type: 'bar',
+                data: {
+                    labels: ['With Research Groups', 'Without Research Groups'],
+                    datasets: [{
+                        label: 'Number of Projects',
+                        data: [withGroups, withoutGroups],
+                        backgroundColor: ['#4caf50', '#f44336'],
+                        borderWidth: 1,
+                        borderColor: '#333'
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    scales: {
+                        y: {
+                            beginAtZero: true
+                        }
+                    },
+                    plugins: {
+                        legend: {
+                            display: false
+                        }
+                    }
+                }
+            });
+        }
+
+        function createDateChart(withDates, withoutDates) {
+            const ctx = document.getElementById('dateChart').getContext('2d');
+            new Chart(ctx, {
+                type: 'doughnut',
+                data: {
+                    labels: ['Has Date Info', 'No Date Info'],
+                    datasets: [{
+                        data: [withDates, withoutDates],
+                        backgroundColor: ['#4caf50', '#ff9800'],
+                        borderWidth: 2,
+                        borderColor: '#fff'
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    plugins: {
+                        legend: {
+                            position: 'bottom',
+                        }
+                    }
+                }
+            });
+        }
+
+        function populateNoEnglishTable(projects, englishUrls) {
+            const tbody = document.getElementById('noEnglishTableBody');
+            tbody.innerHTML = projects.map(p => {
+                const status = p.status || 'unknown';
+                const statusClass = status === 'pågående' ? 'ongoing' : status === 'avsluttet' ? 'ended' : 'unknown';
+                const hasGroups = p.related_research_groups && p.related_research_groups.length > 0;
+
+                return `
+                    <tr>
+                        <td>${p.name}</td>
+                        <td><span class="badge badge-${statusClass}">${status}</span></td>
+                        <td><span class="badge badge-${hasGroups ? 'yes' : 'no'}">${hasGroups ? 'Yes' : 'No'}</span></td>
+                        <td><a href="${p.url}" target="_blank">View</a></td>
+                    </tr>
+                `;
+            }).join('');
+        }
+
+        function populateNoGroupsTable(projects, englishUrls) {
+            const tbody = document.getElementById('noGroupsTableBody');
+            tbody.innerHTML = projects.map(p => {
+                const status = p.status || 'unknown';
+                const statusClass = status === 'pågående' ? 'ongoing' : status === 'avsluttet' ? 'ended' : 'unknown';
+                const hasEnglish = englishUrls.has(p.url);
+
+                return `
+                    <tr>
+                        <td>${p.name}</td>
+                        <td><span class="badge badge-${statusClass}">${status}</span></td>
+                        <td><span class="badge badge-${hasEnglish ? 'yes' : 'no'}">${hasEnglish ? 'Yes' : 'No'}</span></td>
+                        <td><a href="${p.url}" target="_blank">View</a></td>
+                    </tr>
+                `;
+            }).join('');
+        }
+
+        // Load data on page load
+        loadData();
+    </script>
+</body>
+</html>
