@@ -1,0 +1,4225 @@
+{
+  "scraped_at": "2026-01-16T14:27:01.800914",
+  "language": "en",
+  "total_projects": 87,
+  "projects": [
+    {
+      "url": "https://cicero.oslo.no/en/projects/magica",
+      "name": "MAGICA - MAximising the synergy of European research Governance and Innovation for Climate Action",
+      "start_date": "1.6.2022",
+      "end_date": "31.5.2026",
+      "date_raw": "1.6.2022 - 31.5.2026",
+      "status": "ongoing",
+      "funding": null,
+      "topic_areas": [
+        {
+          "name": "International climate policy",
+          "url": "https://cicero.oslo.no/en/topics/international-climate-policy"
+        },
+        {
+          "name": "Adaptation",
+          "url": "https://cicero.oslo.no/en/topics/adaptation"
+        },
+        {
+          "name": "Climate communication",
+          "url": "https://cicero.oslo.no/en/topics/climate-communication"
+        },
+        {
+          "name": "EU climate policy",
+          "url": "https://cicero.oslo.no/en/topics/eu-climate-policy"
+        }
+      ],
+      "involved_researchers": [
+        {
+          "name": "Karina Standal",
+          "role": "Senior Researcher",
+          "url": "https://cicero.oslo.no/en/employees/karina-standal"
+        },
+        {
+          "name": "Miriam Stackpole Dahl",
+          "role": "Senior Communication Advisor",
+          "url": "https://cicero.oslo.no/en/employees/miriam-dahl"
+        },
+        {
+          "name": "Erlend Hermansen",
+          "role": "Senior Researcher",
+          "url": "https://cicero.oslo.no/en/employees/erlend-hermansen"
+        },
+        {
+          "name": "Ragnhild Børke",
+          "role": "Senior Advisor",
+          "url": "https://cicero.oslo.no/en/employees/ragnhild-borke"
+        },
+        {
+          "name": "Steffen Kallbekken",
+          "role": "Research Group Leader",
+          "url": "https://cicero.oslo.no/en/employees/steffen-kallbekken"
+        },
+        {
+          "name": "Solveig Aamodt",
+          "role": "Senior Researcher",
+          "url": "https://cicero.oslo.no/en/employees/solveig-aamodt"
+        },
+        {
+          "name": "Jan S. Fuglestvedt",
+          "role": "Research Director/Special Advisor",
+          "url": "https://cicero.oslo.no/en/employees/jan-fuglestvedt"
+        },
+        {
+          "name": "Tom Julsrud",
+          "role": "Research Group Leader",
+          "url": "https://cicero.oslo.no/en/employees/tom-julsrud"
+        },
+        {
+          "name": "Sigrid Rian Song",
+          "role": "Research Coordinator",
+          "url": "https://cicero.oslo.no/en/employees/sigrid-rian-song"
+        }
+      ],
+      "related_research_groups": [
+        {
+          "name": "Climate and society",
+          "url": "https://cicero.oslo.no/en/research-groups/climate-and-society"
+        },
+        {
+          "name": "Climate Policy",
+          "url": "https://cicero.oslo.no/en/research-groups/climate-policy"
+        },
+        {
+          "name": "Climate Economics",
+          "url": "https://cicero.oslo.no/en/research-groups/climate-economics"
+        },
+        {
+          "name": "Climate System",
+          "url": "https://cicero.oslo.no/en/research-groups/climate-system"
+        },
+        {
+          "name": "Climate Mitigation",
+          "url": "https://cicero.oslo.no/en/research-groups/climate-mitigation"
+        }
+      ],
+      "external_website": null
+    },
+    {
+      "url": "https://cicero.oslo.no/en/projects/pathfinder",
+      "name": "PathFinder - Towards an Integrated Consistent European LULUCF Monitoring and Policy Pathway Assessment Framework",
+      "start_date": "1.9.2022",
+      "end_date": "31.8.2026",
+      "date_raw": "1.9.2022 - 31.8.2026",
+      "status": "ongoing",
+      "funding": null,
+      "topic_areas": [
+        {
+          "name": "Forests",
+          "url": "https://cicero.oslo.no/en/topics/forests"
+        },
+        {
+          "name": "Land use",
+          "url": "https://cicero.oslo.no/en/topics/land-use"
+        }
+      ],
+      "involved_researchers": [
+        {
+          "name": "Glen Peters",
+          "role": "Senior Researcher",
+          "url": "https://cicero.oslo.no/en/employees/glen-peters"
+        },
+        {
+          "name": "Kjetil Schanke Aas",
+          "role": "Senior Researcher",
+          "url": "https://cicero.oslo.no/en/employees/kjetil-schanke-aas"
+        },
+        {
+          "name": "Rosie Fisher",
+          "role": "Senior Researcher",
+          "url": "https://cicero.oslo.no/en/employees/rosie-fisher"
+        },
+        {
+          "name": "Marianne Tronstad Lund",
+          "role": "Research Group Leader",
+          "url": "https://cicero.oslo.no/en/employees/marianne-lund"
+        },
+        {
+          "name": "Marit Sandstad",
+          "role": "Senior Researcher",
+          "url": "https://cicero.oslo.no/en/employees/marit-sandstad"
+        },
+        {
+          "name": "Norman Steinert",
+          "role": "Senior Researcher",
+          "url": "https://cicero.oslo.no/en/employees/norman-steinert"
+        },
+        {
+          "name": "Erik Kusch",
+          "role": "Advisor",
+          "url": "https://cicero.oslo.no/en/employees/erik-kusch"
+        }
+      ],
+      "related_research_groups": [
+        {
+          "name": "Climate Mitigation",
+          "url": "https://cicero.oslo.no/en/research-groups/climate-mitigation"
+        },
+        {
+          "name": "Climate System",
+          "url": "https://cicero.oslo.no/en/research-groups/climate-system"
+        },
+        {
+          "name": "Climate and nature risk",
+          "url": "https://cicero.oslo.no/en/research-groups/climate-and-nature-risk"
+        }
+      ],
+      "external_website": null
+    },
+    {
+      "url": "https://cicero.oslo.no/en/projects/diamond",
+      "name": "DIAMOND - Delivering the next generation of open Integrated Assessment MOdels for Net-zero, sustainable Development",
+      "start_date": "1.12.2022",
+      "end_date": "30.11.2026",
+      "date_raw": "1.12.2022 - 30.11.2026",
+      "status": "ongoing",
+      "funding": null,
+      "topic_areas": [
+        {
+          "name": "Climate Models",
+          "url": "https://cicero.oslo.no/en/topics/climate-models"
+        },
+        {
+          "name": "Emission scenarios",
+          "url": "https://cicero.oslo.no/en/topics/emission-scenarios"
+        },
+        {
+          "name": "Global climate targets",
+          "url": "https://cicero.oslo.no/en/topics/global-climate-targets"
+        },
+        {
+          "name": "International climate policy",
+          "url": "https://cicero.oslo.no/en/topics/international-climate-policy"
+        },
+        {
+          "name": "Circular economy",
+          "url": "https://cicero.oslo.no/en/topics/circular-economy"
+        }
+      ],
+      "involved_researchers": [
+        {
+          "name": "Glen Peters",
+          "role": "Senior Researcher",
+          "url": "https://cicero.oslo.no/en/employees/glen-peters"
+        },
+        {
+          "name": "Ida Sognnæs",
+          "role": "Senior Researcher",
+          "url": "https://cicero.oslo.no/en/employees/ida-sognnaes"
+        },
+        {
+          "name": "Shivika Mittal",
+          "role": "Senior Researcher",
+          "url": "https://cicero.oslo.no/en/employees/shivika-mittal"
+        },
+        {
+          "name": "Jan Ivar Korsbakken",
+          "role": "Senior Researcher",
+          "url": "https://cicero.oslo.no/en/employees/jan-korsbakken"
+        },
+        {
+          "name": "Ben Sanderson",
+          "role": "Research Group Leader",
+          "url": "https://cicero.oslo.no/en/employees/ben-sanderson"
+        },
+        {
+          "name": "Norman Steinert",
+          "role": "Senior Researcher",
+          "url": "https://cicero.oslo.no/en/employees/norman-steinert"
+        },
+        {
+          "name": "Marit Sandstad",
+          "role": "Senior Researcher",
+          "url": "https://cicero.oslo.no/en/employees/marit-sandstad"
+        }
+      ],
+      "related_research_groups": [
+        {
+          "name": "Climate Mitigation",
+          "url": "https://cicero.oslo.no/en/research-groups/climate-mitigation"
+        }
+      ],
+      "external_website": null
+    },
+    {
+      "url": "https://cicero.oslo.no/en/projects/crices-how-sea-ice-and-snow-affect-our-climate-future",
+      "name": "CRiceS - how sea ice and snow affect our climate future",
+      "start_date": "1.9.2021",
+      "end_date": "31.8.2025",
+      "date_raw": "1.9.2021 - 31.8.2025",
+      "status": "ended",
+      "funding": null,
+      "topic_areas": [],
+      "involved_researchers": [],
+      "related_research_groups": [
+        {
+          "name": "Climate System",
+          "url": "https://cicero.oslo.no/en/research-groups/climate-system"
+        }
+      ],
+      "external_website": null
+    },
+    {
+      "url": "https://cicero.oslo.no/en/projects/black-rain",
+      "name": "Black Rain",
+      "start_date": "1.6.2026",
+      "end_date": "31.12.2027",
+      "date_raw": "1.6.2026 - 31.12.2027",
+      "status": "ongoing",
+      "funding": null,
+      "topic_areas": [],
+      "involved_researchers": [
+        {
+          "name": "Camilla Stjern",
+          "role": "Senior Researcher",
+          "url": "https://cicero.oslo.no/en/employees/camilla-stjern"
+        },
+        {
+          "name": "Carley Iles",
+          "role": "Senior Researcher",
+          "url": "https://cicero.oslo.no/en/employees/carley-iles"
+        },
+        {
+          "name": "Bjørn Hallvard Samset",
+          "role": "Senior Researcher",
+          "url": "https://cicero.oslo.no/en/employees/bjorn-hallvard-samset"
+        }
+      ],
+      "related_research_groups": [],
+      "external_website": null
+    },
+    {
+      "url": "https://cicero.oslo.no/en/projects/vocmip",
+      "name": "Volatile Organic Compound Model Intercomparison Project",
+      "start_date": null,
+      "end_date": null,
+      "date_raw": null,
+      "status": null,
+      "funding": null,
+      "topic_areas": [],
+      "involved_researchers": [
+        {
+          "name": "Gunnar Myhre",
+          "role": "Research Group Leader",
+          "url": "https://cicero.oslo.no/en/employees/gunnar-myhre"
+        }
+      ],
+      "related_research_groups": [],
+      "external_website": null
+    },
+    {
+      "url": "https://cicero.oslo.no/en/projects/utrics",
+      "name": "UTRICS: Understanding Temporal aerosol Radiative forcing - Implications for Climate Sensitivity and future warming",
+      "start_date": "1.8.2021",
+      "end_date": "30.3.2028",
+      "date_raw": "1.8.2021 - 30.3.2028",
+      "status": "ongoing",
+      "funding": null,
+      "topic_areas": [
+        {
+          "name": "Atmospheric particles",
+          "url": "https://cicero.oslo.no/en/topics/atmospheric-particles"
+        }
+      ],
+      "involved_researchers": [
+        {
+          "name": "Ragnhild Bieltvedt Skeie",
+          "role": "Senior Researcher",
+          "url": "https://cicero.oslo.no/en/employees/ragnhild-skeie"
+        },
+        {
+          "name": "Gunnar Myhre",
+          "role": "Research Group Leader",
+          "url": "https://cicero.oslo.no/en/employees/gunnar-myhre"
+        }
+      ],
+      "related_research_groups": [
+        {
+          "name": "Atmospheric Sciences",
+          "url": "https://cicero.oslo.no/en/research-groups/atmospheric-sciences"
+        }
+      ],
+      "external_website": null
+    },
+    {
+      "url": "https://cicero.oslo.no/en/projects/deal",
+      "name": "DEAL",
+      "start_date": null,
+      "end_date": null,
+      "date_raw": null,
+      "status": null,
+      "funding": null,
+      "topic_areas": [
+        {
+          "name": "EU climate policy",
+          "url": "https://cicero.oslo.no/en/topics/eu-climate-policy"
+        },
+        {
+          "name": "Norwegian climate policy",
+          "url": "https://cicero.oslo.no/en/topics/norwegian-climate-policy"
+        }
+      ],
+      "involved_researchers": [
+        {
+          "name": "Merethe Dotterud Leiren",
+          "role": "Research Group Leader",
+          "url": "https://cicero.oslo.no/en/employees/merethe-leiren"
+        },
+        {
+          "name": "Erlend Hermansen",
+          "role": "Senior Researcher",
+          "url": "https://cicero.oslo.no/en/employees/erlend-hermansen"
+        },
+        {
+          "name": "Katrine Skagen",
+          "role": "Researcher",
+          "url": "https://cicero.oslo.no/en/employees/katrine-skagen"
+        },
+        {
+          "name": "Elin Boasson",
+          "role": "Professor",
+          "url": "https://cicero.oslo.no/en/employees/elin-boasson"
+        },
+        {
+          "name": "Torbjørg Jevnaker",
+          "role": "Senior Researcher",
+          "url": "https://cicero.oslo.no/en/employees/torbjorg-jevnaker"
+        },
+        {
+          "name": "Gunnell Erika Sandanger",
+          "role": "Senior Communication Advisor",
+          "url": "https://cicero.oslo.no/en/employees/gunnell-sandanger"
+        },
+        {
+          "name": "Ragnhild Børke",
+          "role": "Senior Advisor",
+          "url": "https://cicero.oslo.no/en/employees/ragnhild-borke"
+        }
+      ],
+      "related_research_groups": [
+        {
+          "name": "Climate Policy",
+          "url": "https://cicero.oslo.no/en/research-groups/climate-policy"
+        }
+      ],
+      "external_website": null
+    },
+    {
+      "url": "https://cicero.oslo.no/en/projects/xxn-extreme-extremes-in-norway",
+      "name": "Extreme extremes in Norway",
+      "start_date": "1.1.2025",
+      "end_date": "31.12.2025",
+      "date_raw": "1.1.2025 - 31.12.2025",
+      "status": "ended",
+      "funding": null,
+      "topic_areas": [],
+      "involved_researchers": [
+        {
+          "name": "Camilla Stjern",
+          "role": "Senior Researcher",
+          "url": "https://cicero.oslo.no/en/employees/camilla-stjern"
+        },
+        {
+          "name": "Øivind Hodnebrog",
+          "role": "Senior Researcher",
+          "url": "https://cicero.oslo.no/en/employees/oivind-hodnebrog"
+        },
+        {
+          "name": "Gunnar Myhre",
+          "role": "Research Group Leader",
+          "url": "https://cicero.oslo.no/en/employees/gunnar-myhre"
+        },
+        {
+          "name": "Zosia Staniaszek",
+          "role": "Senior Researcher",
+          "url": "https://cicero.oslo.no/en/employees/zosia-staniaszek"
+        },
+        {
+          "name": "Bjørn Hallvard Samset",
+          "role": "Senior Researcher",
+          "url": "https://cicero.oslo.no/en/employees/bjorn-hallvard-samset"
+        }
+      ],
+      "related_research_groups": [
+        {
+          "name": "Atmospheric Sciences",
+          "url": "https://cicero.oslo.no/en/research-groups/atmospheric-sciences"
+        },
+        {
+          "name": "Climate System",
+          "url": "https://cicero.oslo.no/en/research-groups/climate-system"
+        }
+      ],
+      "external_website": null
+    },
+    {
+      "url": "https://cicero.oslo.no/en/projects/fairzero",
+      "name": "FairZero",
+      "start_date": "1.11.2025",
+      "end_date": "1.11.2031",
+      "date_raw": "1.11.2025 - 1.11.2031",
+      "status": "ongoing",
+      "funding": null,
+      "topic_areas": [
+        {
+          "name": "Norwegian climate policy",
+          "url": "https://cicero.oslo.no/en/topics/norwegian-climate-policy"
+        },
+        {
+          "name": "Just transition",
+          "url": "https://cicero.oslo.no/en/topics/just-transition"
+        },
+        {
+          "name": "Carbon emissions Norway",
+          "url": "https://cicero.oslo.no/en/topics/carbon-emissions-norway"
+        },
+        {
+          "name": "Acceptance",
+          "url": "https://cicero.oslo.no/en/topics/acceptance"
+        }
+      ],
+      "involved_researchers": [
+        {
+          "name": "Steffen Kallbekken",
+          "role": "Research Group Leader",
+          "url": "https://cicero.oslo.no/en/employees/steffen-kallbekken"
+        },
+        {
+          "name": "Håkon Sælen",
+          "role": "Senior Researcher",
+          "url": "https://cicero.oslo.no/en/employees/hakon-saelen"
+        },
+        {
+          "name": "Sofie Skjeflo",
+          "role": "Senior Researcher",
+          "url": "https://cicero.oslo.no/en/employees/sofie-skjeflo"
+        },
+        {
+          "name": "Marie Kirkedam",
+          "role": "Research Assistant",
+          "url": "https://cicero.oslo.no/en/employees/marie-kirkedam"
+        }
+      ],
+      "related_research_groups": [
+        {
+          "name": "Climate Economics",
+          "url": "https://cicero.oslo.no/en/research-groups/climate-economics"
+        }
+      ],
+      "external_website": null
+    },
+    {
+      "url": "https://cicero.oslo.no/en/projects/fairpower-a-fair-low-emission-transition-of-the-power-market-copy",
+      "name": "FAIRPOWER: A fair low-emission transition of the power market",
+      "start_date": "1.12.2023",
+      "end_date": "30.11.2027",
+      "date_raw": "1.12.2023 - 30.11.2027",
+      "status": "ongoing",
+      "funding": null,
+      "topic_areas": [],
+      "involved_researchers": [
+        {
+          "name": "Taran Fæhn",
+          "role": "Senior Researcher",
+          "url": "https://cicero.oslo.no/en/employees/taran-faehn"
+        },
+        {
+          "name": "Sofie Skjeflo",
+          "role": "Senior Researcher",
+          "url": "https://cicero.oslo.no/en/employees/sofie-skjeflo"
+        },
+        {
+          "name": "Steffen Kallbekken",
+          "role": "Research Group Leader",
+          "url": "https://cicero.oslo.no/en/employees/steffen-kallbekken"
+        },
+        {
+          "name": "Asbjørn Torvanger",
+          "role": "Senior Researcher",
+          "url": "https://cicero.oslo.no/en/employees/asbjorn-torvanger"
+        },
+        {
+          "name": "Astrid Arnslett",
+          "role": "Senior Communication Advisor",
+          "url": "https://cicero.oslo.no/en/employees/astrid-arnslett"
+        },
+        {
+          "name": "Nina Bruvik Westberg",
+          "role": "Senior Researcher",
+          "url": "https://cicero.oslo.no/en/employees/nina-bruvik-westberg"
+        }
+      ],
+      "related_research_groups": [],
+      "external_website": null
+    },
+    {
+      "url": "https://cicero.oslo.no/en/projects/popclim",
+      "name": "POPCLIM: Right-wing populism and the political feasibility of climate policy",
+      "start_date": "1.12.2021",
+      "end_date": "30.11.2025",
+      "date_raw": "1.12.2021 - 30.11.2025",
+      "status": "ended",
+      "funding": null,
+      "topic_areas": [
+        {
+          "name": "International climate policy",
+          "url": "https://cicero.oslo.no/en/topics/international-climate-policy"
+        },
+        {
+          "name": "Norwegian climate policy",
+          "url": "https://cicero.oslo.no/en/topics/norwegian-climate-policy"
+        },
+        {
+          "name": "Acceptance",
+          "url": "https://cicero.oslo.no/en/topics/acceptance"
+        }
+      ],
+      "involved_researchers": [
+        {
+          "name": "Håkon Sælen",
+          "role": "Senior Researcher",
+          "url": "https://cicero.oslo.no/en/employees/hakon-saelen"
+        },
+        {
+          "name": "Marianne Aasen",
+          "role": "Senior Researcher",
+          "url": "https://cicero.oslo.no/en/employees/marianne-aasen"
+        },
+        {
+          "name": "Gunnell Erika Sandanger",
+          "role": "Senior Communication Advisor",
+          "url": "https://cicero.oslo.no/en/employees/gunnell-sandanger"
+        }
+      ],
+      "related_research_groups": [
+        {
+          "name": "Climate Policy",
+          "url": "https://cicero.oslo.no/en/research-groups/climate-policy"
+        }
+      ],
+      "external_website": null
+    },
+    {
+      "url": "https://cicero.oslo.no/en/projects/drip-drought-ending-in-intensified-precipitation",
+      "name": "DRIP - DRought ending in Intensified Precipitation",
+      "start_date": "1.1.2024",
+      "end_date": "31.12.2028",
+      "date_raw": "1.1.2024 - 31.12.2028",
+      "status": "ongoing",
+      "funding": null,
+      "topic_areas": [],
+      "involved_researchers": [],
+      "related_research_groups": [],
+      "external_website": null
+    },
+    {
+      "url": "https://cicero.oslo.no/en/projects/fossil-free-futures-Investment-and-Divestment-in-the-Nordic-Countries",
+      "name": "Fossil Free Futures: Divestment Across the Nordic Countries",
+      "start_date": "22.9.2022",
+      "end_date": "22.9.2026",
+      "date_raw": "22.9.2022 - 22.9.2026",
+      "status": "ongoing",
+      "funding": null,
+      "topic_areas": [],
+      "involved_researchers": [
+        {
+          "name": "Erlend Hermansen",
+          "role": "Senior Researcher",
+          "url": "https://cicero.oslo.no/en/employees/erlend-hermansen"
+        },
+        {
+          "name": "Bård Lahn",
+          "role": "Senior Researcher",
+          "url": "https://cicero.oslo.no/en/employees/bard-lahn"
+        },
+        {
+          "name": "Gunnell Erika Sandanger",
+          "role": "Senior Communication Advisor",
+          "url": "https://cicero.oslo.no/en/employees/gunnell-sandanger"
+        }
+      ],
+      "related_research_groups": [
+        {
+          "name": "Climate Policy",
+          "url": "https://cicero.oslo.no/en/research-groups/climate-policy"
+        }
+      ],
+      "external_website": null
+    },
+    {
+      "url": "https://cicero.oslo.no/en/projects/ammonia",
+      "name": "AMMONIA: Climate and environmental impacts of green ammonia (NH3)",
+      "start_date": "1.6.2023",
+      "end_date": "31.5.2027",
+      "date_raw": "1.6.2023 - 31.5.2027",
+      "status": "ongoing",
+      "funding": null,
+      "topic_areas": [
+        {
+          "name": "Transport",
+          "url": "https://cicero.oslo.no/en/topics/transport"
+        },
+        {
+          "name": "Renewable energy",
+          "url": "https://cicero.oslo.no/en/topics/renewable-energy"
+        },
+        {
+          "name": "Energy consumption",
+          "url": "https://cicero.oslo.no/en/topics/energy-consumption"
+        }
+      ],
+      "involved_researchers": [
+        {
+          "name": "Øivind Hodnebrog",
+          "role": "Senior Researcher",
+          "url": "https://cicero.oslo.no/en/employees/oivind-hodnebrog"
+        },
+        {
+          "name": "Gunnar Myhre",
+          "role": "Research Group Leader",
+          "url": "https://cicero.oslo.no/en/employees/gunnar-myhre"
+        },
+        {
+          "name": "Maria Sand",
+          "role": "Senior Researcher",
+          "url": "https://cicero.oslo.no/en/employees/maria-sand"
+        },
+        {
+          "name": "Ragnhild Bieltvedt Skeie",
+          "role": "Senior Researcher",
+          "url": "https://cicero.oslo.no/en/employees/ragnhild-skeie"
+        },
+        {
+          "name": "Emil Dæhlin",
+          "role": "Senior Advisor",
+          "url": "https://cicero.oslo.no/en/employees/emil-daehlin"
+        },
+        {
+          "name": "Caroline Jouan",
+          "role": "Senior Researcher",
+          "url": "https://cicero.oslo.no/en/employees/caroline-jouan"
+        },
+        {
+          "name": "Marit Sandstad",
+          "role": "Senior Researcher",
+          "url": "https://cicero.oslo.no/en/employees/marit-sandstad"
+        }
+      ],
+      "related_research_groups": [
+        {
+          "name": "Atmospheric Sciences",
+          "url": "https://cicero.oslo.no/en/research-groups/atmospheric-sciences"
+        }
+      ],
+      "external_website": null
+    },
+    {
+      "url": "https://cicero.oslo.no/en/projects/borealblaze",
+      "name": "BorealBlaze",
+      "start_date": null,
+      "end_date": null,
+      "date_raw": null,
+      "status": null,
+      "funding": null,
+      "topic_areas": [],
+      "involved_researchers": [
+        {
+          "name": "Marianne Tronstad Lund",
+          "role": "Research Group Leader",
+          "url": "https://cicero.oslo.no/en/employees/marianne-lund"
+        },
+        {
+          "name": "Rosie Fisher",
+          "role": "Senior Researcher",
+          "url": "https://cicero.oslo.no/en/employees/rosie-fisher"
+        },
+        {
+          "name": "Lin Ma",
+          "role": "Senior Researcher",
+          "url": "https://cicero.oslo.no/en/employees/lin-ma"
+        },
+        {
+          "name": "Bjørn Hallvard Samset",
+          "role": "Senior Researcher",
+          "url": "https://cicero.oslo.no/en/employees/bjorn-hallvard-samset"
+        },
+        {
+          "name": "Zosia Staniaszek",
+          "role": "Senior Researcher",
+          "url": "https://cicero.oslo.no/en/employees/zosia-staniaszek"
+        },
+        {
+          "name": "Heidi Katrine Bang",
+          "role": "Senior Communication Advisor",
+          "url": "https://cicero.oslo.no/en/employees/heidi-bang"
+        },
+        {
+          "name": "Eilif Ursin Reed",
+          "role": "Communication Advisor",
+          "url": "https://cicero.oslo.no/en/employees/eilif-reed"
+        }
+      ],
+      "related_research_groups": [],
+      "external_website": null
+    },
+    {
+      "url": "https://cicero.oslo.no/en/projects/planet4health",
+      "name": "Planet4Health - Translating Science into Policy: A Multisectoral Approach to Adaptation and Mitigation of Adverse Effects of Vector-Borne Diseases, Environmental Pollution and Climate Change on Planetary Health",
+      "start_date": "1.1.2024",
+      "end_date": "31.12.2027",
+      "date_raw": "1.1.2024 - 31.12.2027",
+      "status": "ongoing",
+      "funding": null,
+      "topic_areas": [
+        {
+          "name": "Health",
+          "url": "https://cicero.oslo.no/en/topics/health"
+        },
+        {
+          "name": "Air pollution",
+          "url": "https://cicero.oslo.no/en/topics/air-pollution"
+        }
+      ],
+      "involved_researchers": [
+        {
+          "name": "Kristin Aunan",
+          "role": "Research Group Leader",
+          "url": "https://cicero.oslo.no/en/employees/kristin-aunan"
+        },
+        {
+          "name": "Sourangsu Chowdhury",
+          "role": "Senior Researcher",
+          "url": "https://cicero.oslo.no/en/employees/sourangsu-chowdhury"
+        },
+        {
+          "name": "Sigrid Rian Song",
+          "role": "Research Coordinator",
+          "url": "https://cicero.oslo.no/en/employees/sigrid-rian-song"
+        },
+        {
+          "name": "Ida Håbrekke",
+          "role": "Head of Finance",
+          "url": "https://cicero.oslo.no/en/employees/ida-habrekke"
+        },
+        {
+          "name": "Robert Nakken",
+          "role": "Project Financial Controller",
+          "url": "https://cicero.oslo.no/en/employees/robert-nakken"
+        }
+      ],
+      "related_research_groups": [
+        {
+          "name": "Climate and health",
+          "url": "https://cicero.oslo.no/en/research-groups/climate-and-health"
+        }
+      ],
+      "external_website": null
+    },
+    {
+      "url": "https://cicero.oslo.no/en/projects/norsink",
+      "name": "NorSink - Norway’s carbon sink under climate change",
+      "start_date": "1.4.2025",
+      "end_date": "31.3.2029",
+      "date_raw": "1.4.2025 - 31.3.2029",
+      "status": "ongoing",
+      "funding": null,
+      "topic_areas": [
+        {
+          "name": "Carbon budget",
+          "url": "https://cicero.oslo.no/en/topics/carbon-budget"
+        },
+        {
+          "name": "Forests",
+          "url": "https://cicero.oslo.no/en/topics/forests"
+        },
+        {
+          "name": "Land use",
+          "url": "https://cicero.oslo.no/en/topics/land-use"
+        },
+        {
+          "name": "Norwegian climate policy",
+          "url": "https://cicero.oslo.no/en/topics/norwegian-climate-policy"
+        }
+      ],
+      "involved_researchers": [
+        {
+          "name": "Glen Peters",
+          "role": "Senior Researcher",
+          "url": "https://cicero.oslo.no/en/employees/glen-peters"
+        },
+        {
+          "name": "Kjetil Schanke Aas",
+          "role": "Senior Researcher",
+          "url": "https://cicero.oslo.no/en/employees/kjetil-schanke-aas"
+        },
+        {
+          "name": "Rosie Fisher",
+          "role": "Senior Researcher",
+          "url": "https://cicero.oslo.no/en/employees/rosie-fisher"
+        },
+        {
+          "name": "Robbie Andrew",
+          "role": "Senior Researcher",
+          "url": "https://cicero.oslo.no/en/employees/robbie-andrew"
+        },
+        {
+          "name": "Miriam Stackpole Dahl",
+          "role": "Senior Communication Advisor",
+          "url": "https://cicero.oslo.no/en/employees/miriam-dahl"
+        }
+      ],
+      "related_research_groups": [
+        {
+          "name": "Climate Mitigation",
+          "url": "https://cicero.oslo.no/en/research-groups/climate-mitigation"
+        },
+        {
+          "name": "Climate System",
+          "url": "https://cicero.oslo.no/en/research-groups/climate-system"
+        }
+      ],
+      "external_website": null
+    },
+    {
+      "url": "https://cicero.oslo.no/en/projects/europes-evolving-market-design-towards-2040-electricity-market-reform-and-decision-making-during-its-implementation",
+      "name": "Europe’s evolving market design towards 2040:  Electricity Market Reform and decision-making during its implementation",
+      "start_date": "29.4.2025",
+      "end_date": "29.4.2029",
+      "date_raw": "29.4.2025 - 29.4.2029",
+      "status": "ongoing",
+      "funding": null,
+      "topic_areas": [],
+      "involved_researchers": [
+        {
+          "name": "Torbjørg Jevnaker",
+          "role": "Senior Researcher",
+          "url": "https://cicero.oslo.no/en/employees/torbjorg-jevnaker"
+        },
+        {
+          "name": "Marie Lindberg",
+          "role": "Senior Researcher",
+          "url": "https://cicero.oslo.no/en/employees/marie-lindberg"
+        },
+        {
+          "name": "Elin Boasson",
+          "role": "Professor",
+          "url": "https://cicero.oslo.no/en/employees/elin-boasson"
+        }
+      ],
+      "related_research_groups": [
+        {
+          "name": "Climate Policy",
+          "url": "https://cicero.oslo.no/en/research-groups/climate-policy"
+        }
+      ],
+      "external_website": null
+    },
+    {
+      "url": "https://cicero.oslo.no/en/projects/accept",
+      "name": "ACCEPT: Aerosols, Cloud Changes and Energy transport into the Polar domain: The role of feedbacks to the local climate response",
+      "start_date": "1.1.2021",
+      "end_date": "31.3.2028",
+      "date_raw": "1.1.2021 - 31.3.2028",
+      "status": "ongoing",
+      "funding": null,
+      "topic_areas": [
+        {
+          "name": "Arctic",
+          "url": "https://cicero.oslo.no/en/topics/arctic"
+        },
+        {
+          "name": "Atmospheric particles",
+          "url": "https://cicero.oslo.no/en/topics/atmospheric-particles"
+        },
+        {
+          "name": "Climate Models",
+          "url": "https://cicero.oslo.no/en/topics/climate-models"
+        }
+      ],
+      "involved_researchers": [
+        {
+          "name": "Maria Sand",
+          "role": "Senior Researcher",
+          "url": "https://cicero.oslo.no/en/employees/maria-sand"
+        },
+        {
+          "name": "Camilla Stjern",
+          "role": "Senior Researcher",
+          "url": "https://cicero.oslo.no/en/employees/camilla-stjern"
+        },
+        {
+          "name": "Anne Sophie Daloz",
+          "role": "Senior Researcher",
+          "url": "https://cicero.oslo.no/en/employees/anne-daloz"
+        },
+        {
+          "name": "Gunnar Myhre",
+          "role": "Research Group Leader",
+          "url": "https://cicero.oslo.no/en/employees/gunnar-myhre"
+        }
+      ],
+      "related_research_groups": [
+        {
+          "name": "Atmospheric Sciences",
+          "url": "https://cicero.oslo.no/en/research-groups/atmospheric-sciences"
+        }
+      ],
+      "external_website": null
+    },
+    {
+      "url": "https://cicero.oslo.no/en/projects/4cimpacts",
+      "name": "4CImpacts - Universal Energy Access: Clean cooking and climate change impacts",
+      "start_date": "1.1.2020",
+      "end_date": "31.12.2023",
+      "date_raw": "1.1.2020 - 31.12.2023",
+      "status": "ended",
+      "funding": null,
+      "topic_areas": [
+        {
+          "name": "Adaptation",
+          "url": "https://cicero.oslo.no/en/topics/adaptation"
+        },
+        {
+          "name": "Air pollution",
+          "url": "https://cicero.oslo.no/en/topics/air-pollution"
+        },
+        {
+          "name": "Health",
+          "url": "https://cicero.oslo.no/en/topics/health"
+        }
+      ],
+      "involved_researchers": [
+        {
+          "name": "Borgar Aamaas",
+          "role": "Senior Researcher",
+          "url": "https://cicero.oslo.no/en/employees/borgar-aamaas"
+        },
+        {
+          "name": "Karina Standal",
+          "role": "Senior Researcher",
+          "url": "https://cicero.oslo.no/en/employees/karina-standal"
+        },
+        {
+          "name": "Kristin Aunan",
+          "role": "Research Group Leader",
+          "url": "https://cicero.oslo.no/en/employees/kristin-aunan"
+        },
+        {
+          "name": "Mikkel Vindegg",
+          "role": "Senior Researcher",
+          "url": "https://cicero.oslo.no/en/employees/mikkel-vindegg"
+        },
+        {
+          "name": "Sourangsu Chowdhury",
+          "role": "Senior Researcher",
+          "url": "https://cicero.oslo.no/en/employees/sourangsu-chowdhury"
+        },
+        {
+          "name": "Kirsten Ulsrud",
+          "role": "Senior Researcher",
+          "url": "https://cicero.oslo.no/en/employees/kirsten-ulsrud"
+        }
+      ],
+      "related_research_groups": [
+        {
+          "name": "Climate and health",
+          "url": "https://cicero.oslo.no/en/research-groups/climate-and-health"
+        }
+      ],
+      "external_website": null
+    },
+    {
+      "url": "https://cicero.oslo.no/en/projects/cope",
+      "name": "Combined impact of heat and air pollution exposure on human health in India: Evidence and solutions (COPE)",
+      "start_date": "15.2.2025",
+      "end_date": "14.2.2029",
+      "date_raw": "15.2.2025 - 14.2.2029",
+      "status": "ongoing",
+      "funding": null,
+      "topic_areas": [
+        {
+          "name": "Air pollution",
+          "url": "https://cicero.oslo.no/en/topics/air-pollution"
+        },
+        {
+          "name": "Heat waves",
+          "url": "https://cicero.oslo.no/en/topics/heat-waves"
+        },
+        {
+          "name": "Health",
+          "url": "https://cicero.oslo.no/en/topics/health"
+        },
+        {
+          "name": "Climate impacts internationally",
+          "url": "https://cicero.oslo.no/en/topics/climate-impacts-internationally"
+        },
+        {
+          "name": "Adaptation",
+          "url": "https://cicero.oslo.no/en/topics/adaptation"
+        },
+        {
+          "name": "Temperature changes",
+          "url": "https://cicero.oslo.no/en/topics/temperature-changes"
+        }
+      ],
+      "involved_researchers": [
+        {
+          "name": "Kristin Aunan",
+          "role": "Research Group Leader",
+          "url": "https://cicero.oslo.no/en/employees/kristin-aunan"
+        },
+        {
+          "name": "Sourangsu Chowdhury",
+          "role": "Senior Researcher",
+          "url": "https://cicero.oslo.no/en/employees/sourangsu-chowdhury"
+        },
+        {
+          "name": "Marit Sandstad",
+          "role": "Senior Researcher",
+          "url": "https://cicero.oslo.no/en/employees/marit-sandstad"
+        },
+        {
+          "name": "Suzanne Day",
+          "role": "Senior Project Advisor",
+          "url": "https://cicero.oslo.no/en/employees/suzanne-day"
+        },
+        {
+          "name": "Miriam Stackpole Dahl",
+          "role": "Senior Communication Advisor",
+          "url": "https://cicero.oslo.no/en/employees/miriam-dahl"
+        }
+      ],
+      "related_research_groups": [
+        {
+          "name": "Climate and health",
+          "url": "https://cicero.oslo.no/en/research-groups/climate-and-health"
+        }
+      ],
+      "external_website": null
+    },
+    {
+      "url": "https://cicero.oslo.no/en/projects/elife-how-to-circulate-more-electronics",
+      "name": "eLife - how to circulate more electronics",
+      "start_date": "30.6.2023",
+      "end_date": "30.6.2026",
+      "date_raw": "30.6.2023 - 30.6.2026",
+      "status": "ongoing",
+      "funding": null,
+      "topic_areas": [
+        {
+          "name": "Circular economy",
+          "url": "https://cicero.oslo.no/en/topics/circular-economy"
+        }
+      ],
+      "involved_researchers": [
+        {
+          "name": "Tom Julsrud",
+          "role": "Research Group Leader",
+          "url": "https://cicero.oslo.no/en/employees/tom-julsrud"
+        },
+        {
+          "name": "Monica Guillen-Royo",
+          "role": "Senior Researcher",
+          "url": "https://cicero.oslo.no/en/employees/monica-guillen-royo"
+        },
+        {
+          "name": "Marianne Aasen",
+          "role": "Senior Researcher",
+          "url": "https://cicero.oslo.no/en/employees/marianne-aasen"
+        },
+        {
+          "name": "Borgar Aamaas",
+          "role": "Senior Researcher",
+          "url": "https://cicero.oslo.no/en/employees/borgar-aamaas"
+        },
+        {
+          "name": "Emil Dæhlin",
+          "role": "Senior Advisor",
+          "url": "https://cicero.oslo.no/en/employees/emil-daehlin"
+        },
+        {
+          "name": "Astrid Arnslett",
+          "role": "Senior Communication Advisor",
+          "url": "https://cicero.oslo.no/en/employees/astrid-arnslett"
+        }
+      ],
+      "related_research_groups": [
+        {
+          "name": "Climate and society",
+          "url": "https://cicero.oslo.no/en/research-groups/climate-and-society"
+        }
+      ],
+      "external_website": null
+    },
+    {
+      "url": "https://cicero.oslo.no/en/projects/indgreen",
+      "name": "INDGREEN: India’s ambitions and possibilities of becoming a global green leader",
+      "start_date": "1.8.2020",
+      "end_date": "31.7.2025",
+      "date_raw": "1.8.2020 - 31.7.2025",
+      "status": "ended",
+      "funding": null,
+      "topic_areas": [
+        {
+          "name": "Adaptation",
+          "url": "https://cicero.oslo.no/en/topics/adaptation"
+        },
+        {
+          "name": "Just transition",
+          "url": "https://cicero.oslo.no/en/topics/just-transition"
+        },
+        {
+          "name": "International climate policy",
+          "url": "https://cicero.oslo.no/en/topics/international-climate-policy"
+        },
+        {
+          "name": "Climate negotiations",
+          "url": "https://cicero.oslo.no/en/topics/climate-negotiations"
+        },
+        {
+          "name": "Renewable energy",
+          "url": "https://cicero.oslo.no/en/topics/renewable-energy"
+        },
+        {
+          "name": "Energy consumption",
+          "url": "https://cicero.oslo.no/en/topics/energy-consumption"
+        }
+      ],
+      "involved_researchers": [
+        {
+          "name": "Solveig Aamodt",
+          "role": "Senior Researcher",
+          "url": "https://cicero.oslo.no/en/employees/solveig-aamodt"
+        },
+        {
+          "name": "Karina Standal",
+          "role": "Senior Researcher",
+          "url": "https://cicero.oslo.no/en/employees/karina-standal"
+        },
+        {
+          "name": "Miriam Stackpole Dahl",
+          "role": "Senior Communication Advisor",
+          "url": "https://cicero.oslo.no/en/employees/miriam-dahl"
+        }
+      ],
+      "related_research_groups": [
+        {
+          "name": "Climate and society",
+          "url": "https://cicero.oslo.no/en/research-groups/climate-and-society"
+        },
+        {
+          "name": "Climate Policy",
+          "url": "https://cicero.oslo.no/en/research-groups/climate-policy"
+        }
+      ],
+      "external_website": null
+    },
+    {
+      "url": "https://cicero.oslo.no/en/projects/iam-compact-expanding-integrated-assessment-modelling-comprehensive-and-comprehensible-science-for-sustainable-co-created-climate-action-copy",
+      "name": "IAM COMPACT: Expanding Integrated Assessment Modelling: Comprehensive and Comprehensible Science for Sustainable, Co-Created Climate Action",
+      "start_date": "1.9.2022",
+      "end_date": "31.8.2025",
+      "date_raw": "1.9.2022 - 31.8.2025",
+      "status": "ended",
+      "funding": null,
+      "topic_areas": [
+        {
+          "name": "International climate policy",
+          "url": "https://cicero.oslo.no/en/topics/international-climate-policy"
+        },
+        {
+          "name": "Climate Models",
+          "url": "https://cicero.oslo.no/en/topics/climate-models"
+        },
+        {
+          "name": "Global climate targets",
+          "url": "https://cicero.oslo.no/en/topics/global-climate-targets"
+        }
+      ],
+      "involved_researchers": [
+        {
+          "name": "Glen Peters",
+          "role": "Senior Researcher",
+          "url": "https://cicero.oslo.no/en/employees/glen-peters"
+        },
+        {
+          "name": "Ida Sognnæs",
+          "role": "Senior Researcher",
+          "url": "https://cicero.oslo.no/en/employees/ida-sognnaes"
+        },
+        {
+          "name": "Jan Ivar Korsbakken",
+          "role": "Senior Researcher",
+          "url": "https://cicero.oslo.no/en/employees/jan-korsbakken"
+        },
+        {
+          "name": "Shivika Mittal",
+          "role": "Senior Researcher",
+          "url": "https://cicero.oslo.no/en/employees/shivika-mittal"
+        }
+      ],
+      "related_research_groups": [
+        {
+          "name": "Climate Mitigation",
+          "url": "https://cicero.oslo.no/en/research-groups/climate-mitigation"
+        }
+      ],
+      "external_website": null
+    },
+    {
+      "url": "https://cicero.oslo.no/en/projects/receipt-remote-climate-effects-and-their-impact-on-european-sustainability-policy-and-trade",
+      "name": "RECEIPT (REmote Climate Effects and their Impact on European sustainability, Policy and Trade)",
+      "start_date": "1.9.2021",
+      "end_date": "31.8.2023",
+      "date_raw": "1.9.2021 - 31.8.2023",
+      "status": "ended",
+      "funding": null,
+      "topic_areas": [
+        {
+          "name": "Extreme weather",
+          "url": "https://cicero.oslo.no/en/topics/extreme-weather"
+        }
+      ],
+      "involved_researchers": [],
+      "related_research_groups": [
+        {
+          "name": "Climate Impacts",
+          "url": "https://cicero.oslo.no/en/research-groups/climate-impacts"
+        }
+      ],
+      "external_website": null
+    },
+    {
+      "url": "https://cicero.oslo.no/en/projects/QUIFFIN",
+      "name": "Quantifying Climate Impacts of Future Forest Management Strategies in Norway",
+      "start_date": "1.3.2016",
+      "end_date": "31.12.2022",
+      "date_raw": "1.3.2016 - 31.12.2022",
+      "status": "ended",
+      "funding": null,
+      "topic_areas": [
+        {
+          "name": "Forests",
+          "url": "https://cicero.oslo.no/en/topics/forests"
+        },
+        {
+          "name": "Carbon emissions Norway",
+          "url": "https://cicero.oslo.no/en/topics/carbon-emissions-norway"
+        }
+      ],
+      "involved_researchers": [
+        {
+          "name": "Marianne Tronstad Lund",
+          "role": "Research Group Leader",
+          "url": "https://cicero.oslo.no/en/employees/marianne-lund"
+        },
+        {
+          "name": "Jan S. Fuglestvedt",
+          "role": "Research Director/Special Advisor",
+          "url": "https://cicero.oslo.no/en/employees/jan-fuglestvedt"
+        },
+        {
+          "name": "Gunnar Myhre",
+          "role": "Research Group Leader",
+          "url": "https://cicero.oslo.no/en/employees/gunnar-myhre"
+        },
+        {
+          "name": "Glen Peters",
+          "role": "Senior Researcher",
+          "url": "https://cicero.oslo.no/en/employees/glen-peters"
+        },
+        {
+          "name": "Anne Sophie Daloz",
+          "role": "Senior Researcher",
+          "url": "https://cicero.oslo.no/en/employees/anne-daloz"
+        }
+      ],
+      "related_research_groups": [
+        {
+          "name": "Climate System",
+          "url": "https://cicero.oslo.no/en/research-groups/climate-system"
+        },
+        {
+          "name": "Climate and nature risk",
+          "url": "https://cicero.oslo.no/en/research-groups/climate-and-nature-risk"
+        }
+      ],
+      "external_website": null
+    },
+    {
+      "url": "https://cicero.oslo.no/en/projects/lamaclima",
+      "name": "LAMACLIMA – Land Management for Climate Mitigation and Adaptation",
+      "start_date": "1.9.2019",
+      "end_date": "31.8.2022",
+      "date_raw": "1.9.2019 - 31.8.2022",
+      "status": "ended",
+      "funding": null,
+      "topic_areas": [
+        {
+          "name": "Climate impacts internationally",
+          "url": "https://cicero.oslo.no/en/topics/climate-impacts-internationally"
+        },
+        {
+          "name": "Forests",
+          "url": "https://cicero.oslo.no/en/topics/forests"
+        },
+        {
+          "name": "Food and agriculture",
+          "url": "https://cicero.oslo.no/en/topics/food-and-agriculture"
+        },
+        {
+          "name": "Heat waves",
+          "url": "https://cicero.oslo.no/en/topics/heat-waves"
+        },
+        {
+          "name": "Land use",
+          "url": "https://cicero.oslo.no/en/topics/land-use"
+        }
+      ],
+      "involved_researchers": [
+        {
+          "name": "Anton Orlov",
+          "role": "Senior Researcher",
+          "url": "https://cicero.oslo.no/en/employees/anton-orlov"
+        },
+        {
+          "name": "Anne Sophie Daloz",
+          "role": "Senior Researcher",
+          "url": "https://cicero.oslo.no/en/employees/anne-daloz"
+        }
+      ],
+      "related_research_groups": [
+        {
+          "name": "Climate and nature risk",
+          "url": "https://cicero.oslo.no/en/research-groups/climate-and-nature-risk"
+        }
+      ],
+      "external_website": null
+    },
+    {
+      "url": "https://cicero.oslo.no/en/projects/provide",
+      "name": "PROVIDE: Paris Agreement Overshooting – Reversibility, Climate Impacts and Adaptation Needs",
+      "start_date": "1.9.2021",
+      "end_date": "31.8.2024",
+      "date_raw": "1.9.2021 - 31.8.2024",
+      "status": "ended",
+      "funding": null,
+      "topic_areas": [
+        {
+          "name": "Climate impacts internationally",
+          "url": "https://cicero.oslo.no/en/topics/climate-impacts-internationally"
+        },
+        {
+          "name": "Adaptation",
+          "url": "https://cicero.oslo.no/en/topics/adaptation"
+        },
+        {
+          "name": "Climate Models",
+          "url": "https://cicero.oslo.no/en/topics/climate-models"
+        }
+      ],
+      "involved_researchers": [
+        {
+          "name": "Ben Sanderson",
+          "role": "Research Group Leader",
+          "url": "https://cicero.oslo.no/en/employees/ben-sanderson"
+        },
+        {
+          "name": "Anton Orlov",
+          "role": "Senior Researcher",
+          "url": "https://cicero.oslo.no/en/employees/anton-orlov"
+        },
+        {
+          "name": "Rosie Fisher",
+          "role": "Senior Researcher",
+          "url": "https://cicero.oslo.no/en/employees/rosie-fisher"
+        },
+        {
+          "name": "Jana Sillmann",
+          "role": "Research Group Leader",
+          "url": "https://cicero.oslo.no/en/employees/jana-sillmann"
+        },
+        {
+          "name": "Kjetil Schanke Aas",
+          "role": "Senior Researcher",
+          "url": "https://cicero.oslo.no/en/employees/kjetil-schanke-aas"
+        }
+      ],
+      "related_research_groups": [
+        {
+          "name": "Climate Mitigation",
+          "url": "https://cicero.oslo.no/en/research-groups/climate-mitigation"
+        },
+        {
+          "name": "Climate and nature risk",
+          "url": "https://cicero.oslo.no/en/research-groups/climate-and-nature-risk"
+        }
+      ],
+      "external_website": null
+    },
+    {
+      "url": "https://cicero.oslo.no/en/projects/myriad-eu",
+      "name": "MYRIAD-EU: Improving disaster risk management through multi-hazard and multi-sector risk assessment",
+      "start_date": "1.9.2021",
+      "end_date": "31.8.2025",
+      "date_raw": "1.9.2021 - 31.8.2025",
+      "status": "ended",
+      "funding": null,
+      "topic_areas": [
+        {
+          "name": "Climate impacts internationally",
+          "url": "https://cicero.oslo.no/en/topics/climate-impacts-internationally"
+        },
+        {
+          "name": "Adaptation",
+          "url": "https://cicero.oslo.no/en/topics/adaptation"
+        },
+        {
+          "name": "Temperature changes",
+          "url": "https://cicero.oslo.no/en/topics/temperature-changes"
+        },
+        {
+          "name": "Precipitation changes",
+          "url": "https://cicero.oslo.no/en/topics/precipitation-changes"
+        },
+        {
+          "name": "Climate risk",
+          "url": "https://cicero.oslo.no/en/topics/climate-risk"
+        },
+        {
+          "name": "Heat waves",
+          "url": "https://cicero.oslo.no/en/topics/heat-waves"
+        },
+        {
+          "name": "Flooding",
+          "url": "https://cicero.oslo.no/en/topics/flooding"
+        },
+        {
+          "name": "Extreme weather",
+          "url": "https://cicero.oslo.no/en/topics/extreme-weather"
+        }
+      ],
+      "involved_researchers": [],
+      "related_research_groups": [
+        {
+          "name": "Climate System",
+          "url": "https://cicero.oslo.no/en/research-groups/climate-system"
+        },
+        {
+          "name": "Climate and nature risk",
+          "url": "https://cicero.oslo.no/en/research-groups/climate-and-nature-risk"
+        }
+      ],
+      "external_website": null
+    },
+    {
+      "url": "https://cicero.oslo.no/en/projects/climinvest",
+      "name": "ClimINVEST – Understanding physical climate risk",
+      "start_date": "1.9.2017",
+      "end_date": "28.2.2021",
+      "date_raw": "1.9.2017 - 28.2.2021",
+      "status": "ended",
+      "funding": null,
+      "topic_areas": [
+        {
+          "name": "Extreme weather",
+          "url": "https://cicero.oslo.no/en/topics/extreme-weather"
+        },
+        {
+          "name": "Flooding",
+          "url": "https://cicero.oslo.no/en/topics/flooding"
+        },
+        {
+          "name": "Heat waves",
+          "url": "https://cicero.oslo.no/en/topics/heat-waves"
+        },
+        {
+          "name": "Climate finance",
+          "url": "https://cicero.oslo.no/en/topics/climate-finance"
+        },
+        {
+          "name": "Climate risk",
+          "url": "https://cicero.oslo.no/en/topics/climate-risk"
+        },
+        {
+          "name": "Precipitation changes",
+          "url": "https://cicero.oslo.no/en/topics/precipitation-changes"
+        },
+        {
+          "name": "Carbon emissions globally",
+          "url": "https://cicero.oslo.no/en/topics/carbon-emissions-globally"
+        }
+      ],
+      "involved_researchers": [
+        {
+          "name": "Christa Clapp",
+          "role": "Senior Advisor",
+          "url": "https://cicero.oslo.no/en/employees/christa-clapp"
+        },
+        {
+          "name": "Jana Sillmann",
+          "role": "Research Group Leader",
+          "url": "https://cicero.oslo.no/en/employees/jana-sillmann"
+        },
+        {
+          "name": "Iulia Marginean",
+          "role": "Senior Researcher",
+          "url": "https://cicero.oslo.no/en/employees/iulia-marginean"
+        },
+        {
+          "name": "Sophie Dejonckheere",
+          "role": "Senior Advisor",
+          "url": "https://cicero.oslo.no/en/employees/sophie-dejonckheere"
+        },
+        {
+          "name": "Anne Sophie Daloz",
+          "role": "Senior Researcher",
+          "url": "https://cicero.oslo.no/en/employees/anne-daloz"
+        },
+        {
+          "name": "Miriam Stackpole Dahl",
+          "role": "Senior Communication Advisor",
+          "url": "https://cicero.oslo.no/en/employees/miriam-dahl"
+        }
+      ],
+      "related_research_groups": [
+        {
+          "name": "Climate and nature risk",
+          "url": "https://cicero.oslo.no/en/research-groups/climate-and-nature-risk"
+        }
+      ],
+      "external_website": null
+    },
+    {
+      "url": "https://cicero.oslo.no/en/projects/exhaustion",
+      "name": "EXHAUSTION",
+      "start_date": "1.6.2019",
+      "end_date": "31.1.2024",
+      "date_raw": "1.6.2019 - 31.1.2024",
+      "status": "ended",
+      "funding": null,
+      "topic_areas": [
+        {
+          "name": "Health",
+          "url": "https://cicero.oslo.no/en/topics/health"
+        },
+        {
+          "name": "Air pollution",
+          "url": "https://cicero.oslo.no/en/topics/air-pollution"
+        },
+        {
+          "name": "Heat waves",
+          "url": "https://cicero.oslo.no/en/topics/heat-waves"
+        }
+      ],
+      "involved_researchers": [
+        {
+          "name": "Kristin Aunan",
+          "role": "Research Group Leader",
+          "url": "https://cicero.oslo.no/en/employees/kristin-aunan"
+        },
+        {
+          "name": "Jana Sillmann",
+          "role": "Research Group Leader",
+          "url": "https://cicero.oslo.no/en/employees/jana-sillmann"
+        },
+        {
+          "name": "Sourangsu Chowdhury",
+          "role": "Senior Researcher",
+          "url": "https://cicero.oslo.no/en/employees/sourangsu-chowdhury"
+        },
+        {
+          "name": "Øivind Hodnebrog",
+          "role": "Senior Researcher",
+          "url": "https://cicero.oslo.no/en/employees/oivind-hodnebrog"
+        },
+        {
+          "name": "Lin Ma",
+          "role": "Senior Researcher",
+          "url": "https://cicero.oslo.no/en/employees/lin-ma"
+        },
+        {
+          "name": "Anton Orlov",
+          "role": "Senior Researcher",
+          "url": "https://cicero.oslo.no/en/employees/anton-orlov"
+        },
+        {
+          "name": "Nina Schuhen",
+          "role": "Senior Researcher",
+          "url": "https://cicero.oslo.no/en/employees/nina-schuhen"
+        },
+        {
+          "name": "Sigrid Rian Song",
+          "role": "Research Coordinator",
+          "url": "https://cicero.oslo.no/en/employees/sigrid-rian-song"
+        },
+        {
+          "name": "Gunnell Erika Sandanger",
+          "role": "Senior Communication Advisor",
+          "url": "https://cicero.oslo.no/en/employees/gunnell-sandanger"
+        },
+        {
+          "name": "Miriam Stackpole Dahl",
+          "role": "Senior Communication Advisor",
+          "url": "https://cicero.oslo.no/en/employees/miriam-dahl"
+        },
+        {
+          "name": "Suzanne Day",
+          "role": "Senior Project Advisor",
+          "url": "https://cicero.oslo.no/en/employees/suzanne-day"
+        }
+      ],
+      "related_research_groups": [
+        {
+          "name": "Climate and health",
+          "url": "https://cicero.oslo.no/en/research-groups/climate-and-health"
+        }
+      ],
+      "external_website": null
+    },
+    {
+      "url": "https://cicero.oslo.no/en/projects/emclic",
+      "name": "Embodying Climate Change (EmCliC) - transdiciplinary research on urban overheating",
+      "start_date": "1.9.2020",
+      "end_date": "31.8.2023",
+      "date_raw": "1.9.2020 - 31.8.2023",
+      "status": "ended",
+      "funding": null,
+      "topic_areas": [
+        {
+          "name": "Climate impacts internationally",
+          "url": "https://cicero.oslo.no/en/topics/climate-impacts-internationally"
+        },
+        {
+          "name": "Adaptation",
+          "url": "https://cicero.oslo.no/en/topics/adaptation"
+        },
+        {
+          "name": "Temperature changes",
+          "url": "https://cicero.oslo.no/en/topics/temperature-changes"
+        },
+        {
+          "name": "Heat waves",
+          "url": "https://cicero.oslo.no/en/topics/heat-waves"
+        },
+        {
+          "name": "Health",
+          "url": "https://cicero.oslo.no/en/topics/health"
+        },
+        {
+          "name": "Climate risk",
+          "url": "https://cicero.oslo.no/en/topics/climate-risk"
+        }
+      ],
+      "involved_researchers": [
+        {
+          "name": "Kristin Aunan",
+          "role": "Research Group Leader",
+          "url": "https://cicero.oslo.no/en/employees/kristin-aunan"
+        },
+        {
+          "name": "Iulia Marginean",
+          "role": "Senior Researcher",
+          "url": "https://cicero.oslo.no/en/employees/iulia-marginean"
+        },
+        {
+          "name": "Anne Sophie Daloz",
+          "role": "Senior Researcher",
+          "url": "https://cicero.oslo.no/en/employees/anne-daloz"
+        }
+      ],
+      "related_research_groups": [
+        {
+          "name": "Climate and health",
+          "url": "https://cicero.oslo.no/en/research-groups/climate-and-health"
+        }
+      ],
+      "external_website": null
+    },
+    {
+      "url": "https://cicero.oslo.no/en/projects/enbel",
+      "name": "ENBEL: Connecting health and climate change research",
+      "start_date": "1.11.2020",
+      "end_date": "31.1.2024",
+      "date_raw": "1.11.2020 - 31.1.2024",
+      "status": "ended",
+      "funding": null,
+      "topic_areas": [
+        {
+          "name": "Climate impacts internationally",
+          "url": "https://cicero.oslo.no/en/topics/climate-impacts-internationally"
+        },
+        {
+          "name": "Air pollution",
+          "url": "https://cicero.oslo.no/en/topics/air-pollution"
+        },
+        {
+          "name": "Heat waves",
+          "url": "https://cicero.oslo.no/en/topics/heat-waves"
+        },
+        {
+          "name": "Health",
+          "url": "https://cicero.oslo.no/en/topics/health"
+        },
+        {
+          "name": "Extreme weather",
+          "url": "https://cicero.oslo.no/en/topics/extreme-weather"
+        }
+      ],
+      "involved_researchers": [
+        {
+          "name": "Kristin Aunan",
+          "role": "Research Group Leader",
+          "url": "https://cicero.oslo.no/en/employees/kristin-aunan"
+        },
+        {
+          "name": "Miriam Stackpole Dahl",
+          "role": "Senior Communication Advisor",
+          "url": "https://cicero.oslo.no/en/employees/miriam-dahl"
+        },
+        {
+          "name": "Sigrid Rian Song",
+          "role": "Research Coordinator",
+          "url": "https://cicero.oslo.no/en/employees/sigrid-rian-song"
+        },
+        {
+          "name": "Gunnell Erika Sandanger",
+          "role": "Senior Communication Advisor",
+          "url": "https://cicero.oslo.no/en/employees/gunnell-sandanger"
+        },
+        {
+          "name": "Ida Håbrekke",
+          "role": "Head of Finance",
+          "url": "https://cicero.oslo.no/en/employees/ida-habrekke"
+        },
+        {
+          "name": "Suzanne Day",
+          "role": "Senior Project Advisor",
+          "url": "https://cicero.oslo.no/en/employees/suzanne-day"
+        },
+        {
+          "name": "Eilif Ursin Reed",
+          "role": "Communication Advisor",
+          "url": "https://cicero.oslo.no/en/employees/eilif-reed"
+        },
+        {
+          "name": "Erik Tollefsen",
+          "role": "Senior Advisor",
+          "url": "https://cicero.oslo.no/en/employees/erik-tollefsen"
+        },
+        {
+          "name": "Marianne Tronstad Lund",
+          "role": "Research Group Leader",
+          "url": "https://cicero.oslo.no/en/employees/marianne-lund"
+        }
+      ],
+      "related_research_groups": [
+        {
+          "name": "Climate and health",
+          "url": "https://cicero.oslo.no/en/research-groups/climate-and-health"
+        }
+      ],
+      "external_website": null
+    },
+    {
+      "url": "https://cicero.oslo.no/en/projects/heatcost",
+      "name": "Quantifying health risks from heat and air pollution (HEATCOST)",
+      "start_date": "1.1.2020",
+      "end_date": "31.12.2023",
+      "date_raw": "1.1.2020 - 31.12.2023",
+      "status": "ended",
+      "funding": null,
+      "topic_areas": [
+        {
+          "name": "Climate impacts internationally",
+          "url": "https://cicero.oslo.no/en/topics/climate-impacts-internationally"
+        },
+        {
+          "name": "Adaptation",
+          "url": "https://cicero.oslo.no/en/topics/adaptation"
+        },
+        {
+          "name": "Temperature changes",
+          "url": "https://cicero.oslo.no/en/topics/temperature-changes"
+        },
+        {
+          "name": "Air pollution",
+          "url": "https://cicero.oslo.no/en/topics/air-pollution"
+        },
+        {
+          "name": "Heat waves",
+          "url": "https://cicero.oslo.no/en/topics/heat-waves"
+        },
+        {
+          "name": "Health",
+          "url": "https://cicero.oslo.no/en/topics/health"
+        }
+      ],
+      "involved_researchers": [
+        {
+          "name": "Kristin Aunan",
+          "role": "Research Group Leader",
+          "url": "https://cicero.oslo.no/en/employees/kristin-aunan"
+        },
+        {
+          "name": "Jana Sillmann",
+          "role": "Research Group Leader",
+          "url": "https://cicero.oslo.no/en/employees/jana-sillmann"
+        },
+        {
+          "name": "Nina Schuhen",
+          "role": "Senior Researcher",
+          "url": "https://cicero.oslo.no/en/employees/nina-schuhen"
+        },
+        {
+          "name": "Sourangsu Chowdhury",
+          "role": "Senior Researcher",
+          "url": "https://cicero.oslo.no/en/employees/sourangsu-chowdhury"
+        },
+        {
+          "name": "Lin Ma",
+          "role": "Senior Researcher",
+          "url": "https://cicero.oslo.no/en/employees/lin-ma"
+        }
+      ],
+      "related_research_groups": [
+        {
+          "name": "Climate and health",
+          "url": "https://cicero.oslo.no/en/research-groups/climate-and-health"
+        }
+      ],
+      "external_website": null
+    },
+    {
+      "url": "https://cicero.oslo.no/en/projects/hyway",
+      "name": "HYway: Climate Impacts of a HYdrogen economy: the pathWAY to knowledge",
+      "start_date": "1.9.2024",
+      "end_date": "31.8.2028",
+      "date_raw": "1.9.2024 - 31.8.2028",
+      "status": "ongoing",
+      "funding": null,
+      "topic_areas": [
+        {
+          "name": "Hydrogen",
+          "url": "https://cicero.oslo.no/en/topics/hydrogen"
+        },
+        {
+          "name": "Atmospheric particles",
+          "url": "https://cicero.oslo.no/en/topics/atmospheric-particles"
+        },
+        {
+          "name": "Climate Models",
+          "url": "https://cicero.oslo.no/en/topics/climate-models"
+        }
+      ],
+      "involved_researchers": [
+        {
+          "name": "Maria Sand",
+          "role": "Senior Researcher",
+          "url": "https://cicero.oslo.no/en/employees/maria-sand"
+        },
+        {
+          "name": "Gunnar Myhre",
+          "role": "Research Group Leader",
+          "url": "https://cicero.oslo.no/en/employees/gunnar-myhre"
+        },
+        {
+          "name": "Ragnhild Bieltvedt Skeie",
+          "role": "Senior Researcher",
+          "url": "https://cicero.oslo.no/en/employees/ragnhild-skeie"
+        },
+        {
+          "name": "Srinath Krishnan",
+          "role": "Senior Researcher",
+          "url": "https://cicero.oslo.no/en/employees/srinath-krishnan"
+        },
+        {
+          "name": "Øivind Hodnebrog",
+          "role": "Senior Researcher",
+          "url": "https://cicero.oslo.no/en/employees/oivind-hodnebrog"
+        },
+        {
+          "name": "Marit Sandstad",
+          "role": "Senior Researcher",
+          "url": "https://cicero.oslo.no/en/employees/marit-sandstad"
+        },
+        {
+          "name": "Sigrid Rian Song",
+          "role": "Research Coordinator",
+          "url": "https://cicero.oslo.no/en/employees/sigrid-rian-song"
+        },
+        {
+          "name": "Heidi Katrine Bang",
+          "role": "Senior Communication Advisor",
+          "url": "https://cicero.oslo.no/en/employees/heidi-bang"
+        },
+        {
+          "name": "Miriam Stackpole Dahl",
+          "role": "Senior Communication Advisor",
+          "url": "https://cicero.oslo.no/en/employees/miriam-dahl"
+        },
+        {
+          "name": "Eilif Ursin Reed",
+          "role": "Communication Advisor",
+          "url": "https://cicero.oslo.no/en/employees/eilif-reed"
+        },
+        {
+          "name": "Ida Håbrekke",
+          "role": "Head of Finance",
+          "url": "https://cicero.oslo.no/en/employees/ida-habrekke"
+        },
+        {
+          "name": "Medya Temelli Fenerci",
+          "role": "Advisor",
+          "url": "https://cicero.oslo.no/en/employees/medya-temelli-fenerci"
+        },
+        {
+          "name": "Erik Tollefsen",
+          "role": "Senior Advisor",
+          "url": "https://cicero.oslo.no/en/employees/erik-tollefsen"
+        }
+      ],
+      "related_research_groups": [
+        {
+          "name": "Atmospheric Sciences",
+          "url": "https://cicero.oslo.no/en/research-groups/atmospheric-sciences"
+        }
+      ],
+      "external_website": null
+    },
+    {
+      "url": "https://cicero.oslo.no/en/projects/eye-clima",
+      "name": "EYE-CLIMA - Verifying emissions of climate forcers",
+      "start_date": "1.1.2023",
+      "end_date": "31.12.2026",
+      "date_raw": "1.1.2023 - 31.12.2026",
+      "status": "ongoing",
+      "funding": null,
+      "topic_areas": [
+        {
+          "name": "Methane",
+          "url": "https://cicero.oslo.no/en/topics/methane"
+        },
+        {
+          "name": "Carbon emissions globally",
+          "url": "https://cicero.oslo.no/en/topics/carbon-emissions-globally"
+        }
+      ],
+      "involved_researchers": [
+        {
+          "name": "Glen Peters",
+          "role": "Senior Researcher",
+          "url": "https://cicero.oslo.no/en/employees/glen-peters"
+        },
+        {
+          "name": "Robbie Andrew",
+          "role": "Senior Researcher",
+          "url": "https://cicero.oslo.no/en/employees/robbie-andrew"
+        },
+        {
+          "name": "Kjetil Schanke Aas",
+          "role": "Senior Researcher",
+          "url": "https://cicero.oslo.no/en/employees/kjetil-schanke-aas"
+        },
+        {
+          "name": "Ragnhild Børke",
+          "role": "Senior Advisor",
+          "url": "https://cicero.oslo.no/en/employees/ragnhild-borke"
+        },
+        {
+          "name": "Ben Sanderson",
+          "role": "Research Group Leader",
+          "url": "https://cicero.oslo.no/en/employees/ben-sanderson"
+        },
+        {
+          "name": "Eilif Ursin Reed",
+          "role": "Communication Advisor",
+          "url": "https://cicero.oslo.no/en/employees/eilif-reed"
+        },
+        {
+          "name": "Miriam Stackpole Dahl",
+          "role": "Senior Communication Advisor",
+          "url": "https://cicero.oslo.no/en/employees/miriam-dahl"
+        }
+      ],
+      "related_research_groups": [
+        {
+          "name": "Climate Mitigation",
+          "url": "https://cicero.oslo.no/en/research-groups/climate-mitigation"
+        }
+      ],
+      "external_website": null
+    },
+    {
+      "url": "https://cicero.oslo.no/en/projects/aviate",
+      "name": "AVIATE: How can aviation contribute to a low-carbon society?",
+      "start_date": "1.1.2020",
+      "end_date": "31.12.2026",
+      "date_raw": "1.1.2020 - 31.12.2026",
+      "status": "ongoing",
+      "funding": null,
+      "topic_areas": [
+        {
+          "name": "Emission scenarios",
+          "url": "https://cicero.oslo.no/en/topics/emission-scenarios"
+        },
+        {
+          "name": "Transport",
+          "url": "https://cicero.oslo.no/en/topics/transport"
+        },
+        {
+          "name": "Atmospheric particles",
+          "url": "https://cicero.oslo.no/en/topics/atmospheric-particles"
+        },
+        {
+          "name": "International climate policy",
+          "url": "https://cicero.oslo.no/en/topics/international-climate-policy"
+        },
+        {
+          "name": "Consumer behaviour",
+          "url": "https://cicero.oslo.no/en/topics/consumer-behaviour"
+        },
+        {
+          "name": "Carbon emissions Norway",
+          "url": "https://cicero.oslo.no/en/topics/carbon-emissions-norway"
+        },
+        {
+          "name": "Carbon emissions globally",
+          "url": "https://cicero.oslo.no/en/topics/carbon-emissions-globally"
+        }
+      ],
+      "involved_researchers": [
+        {
+          "name": "Steffen Kallbekken",
+          "role": "Research Group Leader",
+          "url": "https://cicero.oslo.no/en/employees/steffen-kallbekken"
+        },
+        {
+          "name": "Marianne Tronstad Lund",
+          "role": "Research Group Leader",
+          "url": "https://cicero.oslo.no/en/employees/marianne-lund"
+        },
+        {
+          "name": "Tom Julsrud",
+          "role": "Research Group Leader",
+          "url": "https://cicero.oslo.no/en/employees/tom-julsrud"
+        },
+        {
+          "name": "Bjørn Hallvard Samset",
+          "role": "Senior Researcher",
+          "url": "https://cicero.oslo.no/en/employees/bjorn-hallvard-samset"
+        },
+        {
+          "name": "Jan S. Fuglestvedt",
+          "role": "Research Director/Special Advisor",
+          "url": "https://cicero.oslo.no/en/employees/jan-fuglestvedt"
+        },
+        {
+          "name": "Marit Sandstad",
+          "role": "Senior Researcher",
+          "url": "https://cicero.oslo.no/en/employees/marit-sandstad"
+        },
+        {
+          "name": "Sofie Skjeflo",
+          "role": "Senior Researcher",
+          "url": "https://cicero.oslo.no/en/employees/sofie-skjeflo"
+        },
+        {
+          "name": "Miriam Stackpole Dahl",
+          "role": "Senior Communication Advisor",
+          "url": "https://cicero.oslo.no/en/employees/miriam-dahl"
+        }
+      ],
+      "related_research_groups": [
+        {
+          "name": "Climate Economics",
+          "url": "https://cicero.oslo.no/en/research-groups/climate-economics"
+        },
+        {
+          "name": "Climate and society",
+          "url": "https://cicero.oslo.no/en/research-groups/climate-and-society"
+        },
+        {
+          "name": "Climate System",
+          "url": "https://cicero.oslo.no/en/research-groups/climate-system"
+        }
+      ],
+      "external_website": null
+    },
+    {
+      "url": "https://cicero.oslo.no/en/projects/greenleap",
+      "name": "GREENLEAP",
+      "start_date": "1.1.2024",
+      "end_date": "31.12.2027",
+      "date_raw": "1.1.2024 - 31.12.2027",
+      "status": "ongoing",
+      "funding": null,
+      "topic_areas": [
+        {
+          "name": "Land use",
+          "url": "https://cicero.oslo.no/en/topics/land-use"
+        },
+        {
+          "name": "Technology for change",
+          "url": "https://cicero.oslo.no/en/topics/technology-for-change"
+        },
+        {
+          "name": "Renewable energy",
+          "url": "https://cicero.oslo.no/en/topics/renewable-energy"
+        }
+      ],
+      "involved_researchers": [
+        {
+          "name": "Solveig Aamodt",
+          "role": "Senior Researcher",
+          "url": "https://cicero.oslo.no/en/employees/solveig-aamodt"
+        },
+        {
+          "name": "Gunnell Erika Sandanger",
+          "role": "Senior Communication Advisor",
+          "url": "https://cicero.oslo.no/en/employees/gunnell-sandanger"
+        }
+      ],
+      "related_research_groups": [
+        {
+          "name": "Climate Policy",
+          "url": "https://cicero.oslo.no/en/research-groups/climate-policy"
+        }
+      ],
+      "external_website": null
+    },
+    {
+      "url": "https://cicero.oslo.no/en/projects/include",
+      "name": "Include",
+      "start_date": "1.3.2020",
+      "end_date": "1.3.2028",
+      "date_raw": "1.3.2020 - 1.3.2028",
+      "status": "ongoing",
+      "funding": null,
+      "topic_areas": [
+        {
+          "name": "Just transition",
+          "url": "https://cicero.oslo.no/en/topics/just-transition"
+        }
+      ],
+      "involved_researchers": [
+        {
+          "name": "Anders Tønnesen",
+          "role": "Senior Researcher",
+          "url": "https://cicero.oslo.no/en/employees/anders-tonnesen"
+        },
+        {
+          "name": "Mikkel Vindegg",
+          "role": "Senior Researcher",
+          "url": "https://cicero.oslo.no/en/employees/mikkel-vindegg"
+        },
+        {
+          "name": "Ingrid Christensen",
+          "role": "Researcher",
+          "url": "https://cicero.oslo.no/en/employees/ingrid-christensen"
+        },
+        {
+          "name": "Marianne Aasen",
+          "role": "Senior Researcher",
+          "url": "https://cicero.oslo.no/en/employees/marianne-aasen"
+        },
+        {
+          "name": "Karina Standal",
+          "role": "Senior Researcher",
+          "url": "https://cicero.oslo.no/en/employees/karina-standal"
+        },
+        {
+          "name": "Monica Guillen-Royo",
+          "role": "Senior Researcher",
+          "url": "https://cicero.oslo.no/en/employees/monica-guillen-royo"
+        },
+        {
+          "name": "Tom Julsrud",
+          "role": "Research Group Leader",
+          "url": "https://cicero.oslo.no/en/employees/tom-julsrud"
+        },
+        {
+          "name": "Astrid Arnslett",
+          "role": "Senior Communication Advisor",
+          "url": "https://cicero.oslo.no/en/employees/astrid-arnslett"
+        }
+      ],
+      "related_research_groups": [
+        {
+          "name": "Climate and society",
+          "url": "https://cicero.oslo.no/en/research-groups/climate-and-society"
+        }
+      ],
+      "external_website": null
+    },
+    {
+      "url": "https://cicero.oslo.no/en/projects/cn-coesm",
+      "name": "CN-coESM - Permafrost, wildfire, climate change processes, interactions, and feedbacks: co-development of Earth System Models between China and Norway",
+      "start_date": "1.1.2022",
+      "end_date": "31.12.2025",
+      "date_raw": "1.1.2022 - 31.12.2025",
+      "status": "ended",
+      "funding": null,
+      "topic_areas": [
+        {
+          "name": "Methane",
+          "url": "https://cicero.oslo.no/en/topics/methane"
+        },
+        {
+          "name": "Climate Models",
+          "url": "https://cicero.oslo.no/en/topics/climate-models"
+        }
+      ],
+      "involved_researchers": [
+        {
+          "name": "Ragnhild Bieltvedt Skeie",
+          "role": "Senior Researcher",
+          "url": "https://cicero.oslo.no/en/employees/ragnhild-skeie"
+        },
+        {
+          "name": "Kjetil Schanke Aas",
+          "role": "Senior Researcher",
+          "url": "https://cicero.oslo.no/en/employees/kjetil-schanke-aas"
+        }
+      ],
+      "related_research_groups": [
+        {
+          "name": "Atmospheric Sciences",
+          "url": "https://cicero.oslo.no/en/research-groups/atmospheric-sciences"
+        }
+      ],
+      "external_website": null
+    },
+    {
+      "url": "https://cicero.oslo.no/en/projects/esm2025-copy",
+      "name": "ESM2025: Earth system models for the future",
+      "start_date": "1.6.2021",
+      "end_date": "31.5.2025",
+      "date_raw": "1.6.2021 - 31.5.2025",
+      "status": "ended",
+      "funding": null,
+      "topic_areas": [
+        {
+          "name": "Climate Models",
+          "url": "https://cicero.oslo.no/en/topics/climate-models"
+        }
+      ],
+      "involved_researchers": [
+        {
+          "name": "Ben Sanderson",
+          "role": "Research Group Leader",
+          "url": "https://cicero.oslo.no/en/employees/ben-sanderson"
+        },
+        {
+          "name": "Rosie Fisher",
+          "role": "Senior Researcher",
+          "url": "https://cicero.oslo.no/en/employees/rosie-fisher"
+        },
+        {
+          "name": "Kjetil Schanke Aas",
+          "role": "Senior Researcher",
+          "url": "https://cicero.oslo.no/en/employees/kjetil-schanke-aas"
+        }
+      ],
+      "related_research_groups": [
+        {
+          "name": "Climate Mitigation",
+          "url": "https://cicero.oslo.no/en/research-groups/climate-mitigation"
+        },
+        {
+          "name": "Climate System",
+          "url": "https://cicero.oslo.no/en/research-groups/climate-system"
+        }
+      ],
+      "external_website": null
+    },
+    {
+      "url": "https://cicero.oslo.no/en/projects/justdecarb-copy",
+      "name": "JUSTDECARB Socially Just and Politically Robust Decarbonisation",
+      "start_date": "1.12.2020",
+      "end_date": "30.11.2023",
+      "date_raw": "1.12.2020 - 30.11.2023",
+      "status": "ended",
+      "funding": null,
+      "topic_areas": [],
+      "involved_researchers": [],
+      "related_research_groups": [],
+      "external_website": null
+    },
+    {
+      "url": "https://cicero.oslo.no/en/projects/flywell-how-to-reduce-air-travel-and-at-the-same-time-maintain-a-high-quality-of-life",
+      "name": "FLYWELL - how to reduce air travel and at the same time maintain a high quality of life.",
+      "start_date": "1.9.2023",
+      "end_date": "31.12.2026",
+      "date_raw": "1.9.2023 - 31.12.2026",
+      "status": "ongoing",
+      "funding": null,
+      "topic_areas": [
+        {
+          "name": "Consumer behaviour",
+          "url": "https://cicero.oslo.no/en/topics/consumer-behaviour"
+        },
+        {
+          "name": "Transport",
+          "url": "https://cicero.oslo.no/en/topics/transport"
+        },
+        {
+          "name": "Just transition",
+          "url": "https://cicero.oslo.no/en/topics/just-transition"
+        }
+      ],
+      "involved_researchers": [
+        {
+          "name": "Monica Guillen-Royo",
+          "role": "Senior Researcher",
+          "url": "https://cicero.oslo.no/en/employees/monica-guillen-royo"
+        },
+        {
+          "name": "Tom Julsrud",
+          "role": "Research Group Leader",
+          "url": "https://cicero.oslo.no/en/employees/tom-julsrud"
+        },
+        {
+          "name": "Borgar Aamaas",
+          "role": "Senior Researcher",
+          "url": "https://cicero.oslo.no/en/employees/borgar-aamaas"
+        },
+        {
+          "name": "Emil Dæhlin",
+          "role": "Senior Advisor",
+          "url": "https://cicero.oslo.no/en/employees/emil-daehlin"
+        },
+        {
+          "name": "Astrid Arnslett",
+          "role": "Senior Communication Advisor",
+          "url": "https://cicero.oslo.no/en/employees/astrid-arnslett"
+        }
+      ],
+      "related_research_groups": [
+        {
+          "name": "Climate and society",
+          "url": "https://cicero.oslo.no/en/research-groups/climate-and-society"
+        }
+      ],
+      "external_website": null
+    },
+    {
+      "url": "https://cicero.oslo.no/en/projects/stresstest",
+      "name": "StressTest: Using scenarios to assess climate risk in the financial sector",
+      "start_date": "1.1.2020",
+      "end_date": "31.5.2024",
+      "date_raw": "1.1.2020 - 31.5.2024",
+      "status": "ended",
+      "funding": null,
+      "topic_areas": [
+        {
+          "name": "Emission scenarios",
+          "url": "https://cicero.oslo.no/en/topics/emission-scenarios"
+        },
+        {
+          "name": "Climate risk",
+          "url": "https://cicero.oslo.no/en/topics/climate-risk"
+        },
+        {
+          "name": "Climate finance",
+          "url": "https://cicero.oslo.no/en/topics/climate-finance"
+        }
+      ],
+      "involved_researchers": [
+        {
+          "name": "Ida Sognnæs",
+          "role": "Senior Researcher",
+          "url": "https://cicero.oslo.no/en/employees/ida-sognnaes"
+        },
+        {
+          "name": "Glen Peters",
+          "role": "Senior Researcher",
+          "url": "https://cicero.oslo.no/en/employees/glen-peters"
+        },
+        {
+          "name": "Miriam Stackpole Dahl",
+          "role": "Senior Communication Advisor",
+          "url": "https://cicero.oslo.no/en/employees/miriam-dahl"
+        }
+      ],
+      "related_research_groups": [
+        {
+          "name": "Climate Mitigation",
+          "url": "https://cicero.oslo.no/en/research-groups/climate-mitigation"
+        }
+      ],
+      "external_website": null
+    },
+    {
+      "url": "https://cicero.oslo.no/en/projects/zeesa-how-to-develop-zero-emission-energy-systems-for-the-arctic",
+      "name": "ZEESA - How to develop zero emission energy systems for the Arctic",
+      "start_date": "1.1.2023",
+      "end_date": "31.12.2026",
+      "date_raw": "1.1.2023 - 31.12.2026",
+      "status": "ongoing",
+      "funding": null,
+      "topic_areas": [
+        {
+          "name": "Renewable energy",
+          "url": "https://cicero.oslo.no/en/topics/renewable-energy"
+        },
+        {
+          "name": "Technology for change",
+          "url": "https://cicero.oslo.no/en/topics/technology-for-change"
+        },
+        {
+          "name": "Acceptance",
+          "url": "https://cicero.oslo.no/en/topics/acceptance"
+        },
+        {
+          "name": "Arctic",
+          "url": "https://cicero.oslo.no/en/topics/arctic"
+        }
+      ],
+      "involved_researchers": [
+        {
+          "name": "Karina Standal",
+          "role": "Senior Researcher",
+          "url": "https://cicero.oslo.no/en/employees/karina-standal"
+        },
+        {
+          "name": "Tom Julsrud",
+          "role": "Research Group Leader",
+          "url": "https://cicero.oslo.no/en/employees/tom-julsrud"
+        },
+        {
+          "name": "Sandra Bakkevoll",
+          "role": "Research Assistant",
+          "url": "https://cicero.oslo.no/en/employees/sandra-bakkevoll"
+        }
+      ],
+      "related_research_groups": [
+        {
+          "name": "Climate and society",
+          "url": "https://cicero.oslo.no/en/research-groups/climate-and-society"
+        }
+      ],
+      "external_website": null
+    },
+    {
+      "url": "https://cicero.oslo.no/en/projects/upscale-upscaling-sustainable-collaborative-consumption-using-public-libraries",
+      "name": "UPSCALE: Upscaling sustainable collaborative consumption using public libraries",
+      "start_date": "1.1.2020",
+      "end_date": "31.12.2023",
+      "date_raw": "1.1.2020 - 31.12.2023",
+      "status": "ended",
+      "funding": null,
+      "topic_areas": [
+        {
+          "name": "Circular economy",
+          "url": "https://cicero.oslo.no/en/topics/circular-economy"
+        },
+        {
+          "name": "Consumer behaviour",
+          "url": "https://cicero.oslo.no/en/topics/consumer-behaviour"
+        }
+      ],
+      "involved_researchers": [
+        {
+          "name": "Tom Julsrud",
+          "role": "Research Group Leader",
+          "url": "https://cicero.oslo.no/en/employees/tom-julsrud"
+        },
+        {
+          "name": "Monica Guillen-Royo",
+          "role": "Senior Researcher",
+          "url": "https://cicero.oslo.no/en/employees/monica-guillen-royo"
+        },
+        {
+          "name": "Borgar Aamaas",
+          "role": "Senior Researcher",
+          "url": "https://cicero.oslo.no/en/employees/borgar-aamaas"
+        },
+        {
+          "name": "Karina Standal",
+          "role": "Senior Researcher",
+          "url": "https://cicero.oslo.no/en/employees/karina-standal"
+        },
+        {
+          "name": "Sandra Bakkevoll",
+          "role": "Research Assistant",
+          "url": "https://cicero.oslo.no/en/employees/sandra-bakkevoll"
+        },
+        {
+          "name": "Astrid Arnslett",
+          "role": "Senior Communication Advisor",
+          "url": "https://cicero.oslo.no/en/employees/astrid-arnslett"
+        }
+      ],
+      "related_research_groups": [
+        {
+          "name": "Climate and society",
+          "url": "https://cicero.oslo.no/en/research-groups/climate-and-society"
+        }
+      ],
+      "external_website": null
+    },
+    {
+      "url": "https://cicero.oslo.no/en/projects/epic",
+      "name": "EPIC - Extreme Precipitation In Cleaner air",
+      "start_date": "1.9.2021",
+      "end_date": "31.8.2026",
+      "date_raw": "1.9.2021 - 31.8.2026",
+      "status": "ongoing",
+      "funding": null,
+      "topic_areas": [
+        {
+          "name": "Extreme weather",
+          "url": "https://cicero.oslo.no/en/topics/extreme-weather"
+        },
+        {
+          "name": "Atmospheric particles",
+          "url": "https://cicero.oslo.no/en/topics/atmospheric-particles"
+        },
+        {
+          "name": "Climate Models",
+          "url": "https://cicero.oslo.no/en/topics/climate-models"
+        }
+      ],
+      "involved_researchers": [
+        {
+          "name": "Kari Alterskjær",
+          "role": "Senior Researcher",
+          "url": "https://cicero.oslo.no/en/employees/kari-alterskjaer"
+        },
+        {
+          "name": "Gunnar Myhre",
+          "role": "Research Group Leader",
+          "url": "https://cicero.oslo.no/en/employees/gunnar-myhre"
+        },
+        {
+          "name": "Birthe Steensen",
+          "role": "Senior Researcher",
+          "url": "https://cicero.oslo.no/en/employees/birthe-steensen"
+        }
+      ],
+      "related_research_groups": [
+        {
+          "name": "Atmospheric Sciences",
+          "url": "https://cicero.oslo.no/en/research-groups/atmospheric-sciences"
+        }
+      ],
+      "external_website": null
+    },
+    {
+      "url": "https://cicero.oslo.no/en/projects/acrobear--risiko-for-skogbrann-og-vektorbarne-sykdommer-pa-hoye-breddegrader-copy",
+      "name": "ACRoBEAR – Arctic Community Resilience to Boreal Environmental change: Assessing Risks from fire and disease",
+      "start_date": "1.3.2020",
+      "end_date": "31.12.2022",
+      "date_raw": "1.3.2020 - 31.12.2022",
+      "status": "ended",
+      "funding": null,
+      "topic_areas": [
+        {
+          "name": "Forests",
+          "url": "https://cicero.oslo.no/en/topics/forests"
+        },
+        {
+          "name": "Temperature changes",
+          "url": "https://cicero.oslo.no/en/topics/temperature-changes"
+        },
+        {
+          "name": "Heat waves",
+          "url": "https://cicero.oslo.no/en/topics/heat-waves"
+        }
+      ],
+      "involved_researchers": [
+        {
+          "name": "Marianne Tronstad Lund",
+          "role": "Research Group Leader",
+          "url": "https://cicero.oslo.no/en/employees/marianne-lund"
+        },
+        {
+          "name": "Kalle Nordling",
+          "role": "Senior Researcher",
+          "url": "https://cicero.oslo.no/en/employees/kalle-nordling"
+        }
+      ],
+      "related_research_groups": [
+        {
+          "name": "Climate System",
+          "url": "https://cicero.oslo.no/en/research-groups/climate-system"
+        }
+      ],
+      "external_website": null
+    },
+    {
+      "url": "https://cicero.oslo.no/en/projects/come-res-copy",
+      "name": "COME RES - the development of clean energy communities in Norway",
+      "start_date": "1.9.2020",
+      "end_date": "1.2.2023",
+      "date_raw": "1.9.2020 - 1.2.2023",
+      "status": "ended",
+      "funding": null,
+      "topic_areas": [
+        {
+          "name": "Renewable energy",
+          "url": "https://cicero.oslo.no/en/topics/renewable-energy"
+        },
+        {
+          "name": "Energy consumption",
+          "url": "https://cicero.oslo.no/en/topics/energy-consumption"
+        },
+        {
+          "name": "Energy policy in the EU",
+          "url": "https://cicero.oslo.no/en/topics/energy-policy-in-the-eu"
+        }
+      ],
+      "involved_researchers": [
+        {
+          "name": "Karina Standal",
+          "role": "Senior Researcher",
+          "url": "https://cicero.oslo.no/en/employees/karina-standal"
+        },
+        {
+          "name": "Stine Aakre",
+          "role": "Senior Researcher",
+          "url": "https://cicero.oslo.no/en/employees/stine-aakre"
+        },
+        {
+          "name": "Merethe Dotterud Leiren",
+          "role": "Research Group Leader",
+          "url": "https://cicero.oslo.no/en/employees/merethe-leiren"
+        },
+        {
+          "name": "Nora Ytreberg",
+          "role": "Researcher",
+          "url": "https://cicero.oslo.no/en/employees/nora-ytreberg"
+        },
+        {
+          "name": "Hege Fantoft Andreassen",
+          "role": "Senior Communication Advisor",
+          "url": "https://cicero.oslo.no/en/employees/hege-fantoft-andreassen"
+        }
+      ],
+      "related_research_groups": [],
+      "external_website": null
+    },
+    {
+      "url": "https://cicero.oslo.no/en/projects/cathy",
+      "name": "CATHY - Climate implications of rapid changes in Asian Anthropogenic Aerosol emissions",
+      "start_date": "1.10.2021",
+      "end_date": "30.9.2025",
+      "date_raw": "1.10.2021 - 30.9.2025",
+      "status": "ongoing",
+      "funding": null,
+      "topic_areas": [
+        {
+          "name": "Climate impacts internationally",
+          "url": "https://cicero.oslo.no/en/topics/climate-impacts-internationally"
+        },
+        {
+          "name": "Temperature changes",
+          "url": "https://cicero.oslo.no/en/topics/temperature-changes"
+        },
+        {
+          "name": "Atmospheric particles",
+          "url": "https://cicero.oslo.no/en/topics/atmospheric-particles"
+        },
+        {
+          "name": "Precipitation changes",
+          "url": "https://cicero.oslo.no/en/topics/precipitation-changes"
+        },
+        {
+          "name": "Air pollution",
+          "url": "https://cicero.oslo.no/en/topics/air-pollution"
+        },
+        {
+          "name": "Climate Models",
+          "url": "https://cicero.oslo.no/en/topics/climate-models"
+        },
+        {
+          "name": "Extreme weather",
+          "url": "https://cicero.oslo.no/en/topics/extreme-weather"
+        },
+        {
+          "name": "Climate risk",
+          "url": "https://cicero.oslo.no/en/topics/climate-risk"
+        }
+      ],
+      "involved_researchers": [
+        {
+          "name": "Bjørn Hallvard Samset",
+          "role": "Senior Researcher",
+          "url": "https://cicero.oslo.no/en/employees/bjorn-hallvard-samset"
+        },
+        {
+          "name": "Marianne Tronstad Lund",
+          "role": "Research Director",
+          "url": "https://cicero.oslo.no/en/employees/marianne-lund"
+        },
+        {
+          "name": "Jan S. Fuglestvedt",
+          "role": "Research Director/Special Advisor",
+          "url": "https://cicero.oslo.no/en/employees/jan-fuglestvedt"
+        },
+        {
+          "name": "Camilla Stjern",
+          "role": "Senior Researcher",
+          "url": "https://cicero.oslo.no/en/employees/camilla-stjern"
+        },
+        {
+          "name": "Carley Iles",
+          "role": "Senior Researcher",
+          "url": "https://cicero.oslo.no/en/employees/carley-iles"
+        },
+        {
+          "name": "Kalle Nordling",
+          "role": "Senior Researcher",
+          "url": "https://cicero.oslo.no/en/employees/kalle-nordling"
+        }
+      ],
+      "related_research_groups": [
+        {
+          "name": "Climate System",
+          "url": "https://cicero.oslo.no/en/research-groups/climate-system"
+        }
+      ],
+      "external_website": null
+    },
+    {
+      "url": "https://cicero.oslo.no/en/projects/hydrogen",
+      "name": "HYDROGEN",
+      "start_date": "1.1.2021",
+      "end_date": "30.6.2024",
+      "date_raw": "1.1.2021 - 30.6.2024",
+      "status": "ended",
+      "funding": null,
+      "topic_areas": [
+        {
+          "name": "Hydrogen",
+          "url": "https://cicero.oslo.no/en/topics/hydrogen"
+        }
+      ],
+      "involved_researchers": [
+        {
+          "name": "Maria Sand",
+          "role": "Senior Researcher",
+          "url": "https://cicero.oslo.no/en/employees/maria-sand"
+        },
+        {
+          "name": "Ragnhild Bieltvedt Skeie",
+          "role": "Senior Researcher",
+          "url": "https://cicero.oslo.no/en/employees/ragnhild-skeie"
+        },
+        {
+          "name": "Gunnar Myhre",
+          "role": "Research Group Leader",
+          "url": "https://cicero.oslo.no/en/employees/gunnar-myhre"
+        },
+        {
+          "name": "Marit Sandstad",
+          "role": "Senior Researcher",
+          "url": "https://cicero.oslo.no/en/employees/marit-sandstad"
+        },
+        {
+          "name": "Srinath Krishnan",
+          "role": "Senior Researcher",
+          "url": "https://cicero.oslo.no/en/employees/srinath-krishnan"
+        },
+        {
+          "name": "Astrid Arnslett",
+          "role": "Senior Communication Advisor",
+          "url": "https://cicero.oslo.no/en/employees/astrid-arnslett"
+        }
+      ],
+      "related_research_groups": [
+        {
+          "name": "Atmospheric Sciences",
+          "url": "https://cicero.oslo.no/en/research-groups/atmospheric-sciences"
+        }
+      ],
+      "external_website": null
+    },
+    {
+      "url": "https://cicero.oslo.no/en/projects/icos",
+      "name": "ICOS: Integrated Carbon Observation System Norway and Ocean Thematic Centre (OTC), phase 2",
+      "start_date": "1.1.2021",
+      "end_date": "31.12.2024",
+      "date_raw": "1.1.2021 - 31.12.2024",
+      "status": "ended",
+      "funding": null,
+      "topic_areas": [
+        {
+          "name": "Climate Models",
+          "url": "https://cicero.oslo.no/en/topics/climate-models"
+        }
+      ],
+      "involved_researchers": [
+        {
+          "name": "Ragnhild Bieltvedt Skeie",
+          "role": "Senior Researcher",
+          "url": "https://cicero.oslo.no/en/employees/ragnhild-skeie"
+        },
+        {
+          "name": "Gunnar Myhre",
+          "role": "Research Group Leader",
+          "url": "https://cicero.oslo.no/en/employees/gunnar-myhre"
+        },
+        {
+          "name": "Jan Ivar Korsbakken",
+          "role": "Senior Researcher",
+          "url": "https://cicero.oslo.no/en/employees/jan-korsbakken"
+        },
+        {
+          "name": "Iris Mužić",
+          "role": "Researcher",
+          "url": "https://cicero.oslo.no/en/employees/iris-muzic"
+        }
+      ],
+      "related_research_groups": [
+        {
+          "name": "Atmospheric Sciences",
+          "url": "https://cicero.oslo.no/en/research-groups/atmospheric-sciences"
+        }
+      ],
+      "external_website": null
+    },
+    {
+      "url": "https://cicero.oslo.no/en/projects/budget",
+      "name": "BUDGET: Constraining future precipitation changes in Europe and the Arctic from historical observations of the atmospheric energy budget",
+      "start_date": "1.12.2021",
+      "end_date": "31.12.2025",
+      "date_raw": "1.12.2021 - 31.12.2025",
+      "status": "ended",
+      "funding": null,
+      "topic_areas": [
+        {
+          "name": "Precipitation changes",
+          "url": "https://cicero.oslo.no/en/topics/precipitation-changes"
+        },
+        {
+          "name": "Climate Models",
+          "url": "https://cicero.oslo.no/en/topics/climate-models"
+        }
+      ],
+      "involved_researchers": [
+        {
+          "name": "Gunnar Myhre",
+          "role": "Research Group Leader",
+          "url": "https://cicero.oslo.no/en/employees/gunnar-myhre"
+        },
+        {
+          "name": "Øivind Hodnebrog",
+          "role": "Senior Researcher",
+          "url": "https://cicero.oslo.no/en/employees/oivind-hodnebrog"
+        },
+        {
+          "name": "Maria Sand",
+          "role": "Senior Researcher",
+          "url": "https://cicero.oslo.no/en/employees/maria-sand"
+        }
+      ],
+      "related_research_groups": [],
+      "external_website": null
+    },
+    {
+      "url": "https://cicero.oslo.no/en/projects/regame-reliable-global-methane",
+      "name": "ReGame: Reliable global methane emissions estimates in a changing world",
+      "start_date": "1.12.2021",
+      "end_date": "31.12.2025",
+      "date_raw": "1.12.2021 - 31.12.2025",
+      "status": "ended",
+      "funding": null,
+      "topic_areas": [
+        {
+          "name": "Methane",
+          "url": "https://cicero.oslo.no/en/topics/methane"
+        }
+      ],
+      "involved_researchers": [
+        {
+          "name": "Gunnar Myhre",
+          "role": "Research Group Leader",
+          "url": "https://cicero.oslo.no/en/employees/gunnar-myhre"
+        },
+        {
+          "name": "Øivind Hodnebrog",
+          "role": "Senior Researcher",
+          "url": "https://cicero.oslo.no/en/employees/oivind-hodnebrog"
+        },
+        {
+          "name": "Ragnhild Bieltvedt Skeie",
+          "role": "Senior Researcher",
+          "url": "https://cicero.oslo.no/en/employees/ragnhild-skeie"
+        }
+      ],
+      "related_research_groups": [
+        {
+          "name": "Atmospheric Sciences",
+          "url": "https://cicero.oslo.no/en/research-groups/atmospheric-sciences"
+        }
+      ],
+      "external_website": null
+    },
+    {
+      "url": "https://cicero.oslo.no/en/projects/constrain",
+      "name": "CONSTRAIN",
+      "start_date": null,
+      "end_date": null,
+      "date_raw": null,
+      "status": null,
+      "funding": null,
+      "topic_areas": [
+        {
+          "name": "Climate Models",
+          "url": "https://cicero.oslo.no/en/topics/climate-models"
+        },
+        {
+          "name": "Climate risk",
+          "url": "https://cicero.oslo.no/en/topics/climate-risk"
+        },
+        {
+          "name": "Temperature changes",
+          "url": "https://cicero.oslo.no/en/topics/temperature-changes"
+        },
+        {
+          "name": "Precipitation changes",
+          "url": "https://cicero.oslo.no/en/topics/precipitation-changes"
+        },
+        {
+          "name": "Atmospheric particles",
+          "url": "https://cicero.oslo.no/en/topics/atmospheric-particles"
+        },
+        {
+          "name": "Climate impacts internationally",
+          "url": "https://cicero.oslo.no/en/topics/climate-impacts-internationally"
+        }
+      ],
+      "involved_researchers": [
+        {
+          "name": "Gunnar Myhre",
+          "role": "Research Group Leader",
+          "url": "https://cicero.oslo.no/en/employees/gunnar-myhre"
+        }
+      ],
+      "related_research_groups": [
+        {
+          "name": "Atmospheric Sciences",
+          "url": "https://cicero.oslo.no/en/research-groups/atmospheric-sciences"
+        }
+      ],
+      "external_website": null
+    },
+    {
+      "url": "https://cicero.oslo.no/en/projects/chinorbc",
+      "name": "ChiNorBC - Chinese-Norwegian Project on Emission, Impact, and Control Policy for Black Carbon and its Co-benefits in Northern China",
+      "start_date": "12.12.2020",
+      "end_date": "31.12.2021",
+      "date_raw": "12.12.2020 - 31.12.2021",
+      "status": "ended",
+      "funding": null,
+      "topic_areas": [
+        {
+          "name": "Adaptation",
+          "url": "https://cicero.oslo.no/en/topics/adaptation"
+        },
+        {
+          "name": "Health",
+          "url": "https://cicero.oslo.no/en/topics/health"
+        },
+        {
+          "name": "Emission scenarios",
+          "url": "https://cicero.oslo.no/en/topics/emission-scenarios"
+        },
+        {
+          "name": "Carbon emissions globally",
+          "url": "https://cicero.oslo.no/en/topics/carbon-emissions-globally"
+        }
+      ],
+      "involved_researchers": [
+        {
+          "name": "Marianne Tronstad Lund",
+          "role": "Research Director",
+          "url": "https://cicero.oslo.no/en/employees/marianne-lund"
+        },
+        {
+          "name": "Jan S. Fuglestvedt",
+          "role": "Research Director/Special Advisor",
+          "url": "https://cicero.oslo.no/en/employees/jan-fuglestvedt"
+        },
+        {
+          "name": "Kristin Aunan",
+          "role": "Research Director",
+          "url": "https://cicero.oslo.no/en/employees/kristin-aunan"
+        },
+        {
+          "name": "Gunnar Myhre",
+          "role": "Research Director",
+          "url": "https://cicero.oslo.no/en/employees/gunnar-myhre"
+        }
+      ],
+      "related_research_groups": [
+        {
+          "name": "Climate System",
+          "url": "https://cicero.oslo.no/en/research-groups/climate-system"
+        }
+      ],
+      "external_website": null
+    },
+    {
+      "url": "https://cicero.oslo.no/en/projects/S2S4E%20Climate%20Services%20for%20Clean%20Energy",
+      "name": "S2S4E Climate Services for Clean Energy",
+      "start_date": "1.12.2017",
+      "end_date": "1.12.2020",
+      "date_raw": "1.12.2017 - 1.12.2020",
+      "status": "ended",
+      "funding": null,
+      "topic_areas": [
+        {
+          "name": "Technology for change",
+          "url": "https://cicero.oslo.no/en/topics/technology-for-change"
+        },
+        {
+          "name": "Renewable energy",
+          "url": "https://cicero.oslo.no/en/topics/renewable-energy"
+        }
+      ],
+      "involved_researchers": [],
+      "related_research_groups": [],
+      "external_website": null
+    },
+    {
+      "url": "https://cicero.oslo.no/en/projects/keyclim",
+      "name": "KeyCLIM - Key Earth System Processes to understand Arctic Climate Warming and Northern Latitude Hydrological Cycle Changes",
+      "start_date": "1.1.2019",
+      "end_date": "1.1.2023",
+      "date_raw": "1.1.2019 - 1.1.2023",
+      "status": "ended",
+      "funding": null,
+      "topic_areas": [
+        {
+          "name": "Climate Models",
+          "url": "https://cicero.oslo.no/en/topics/climate-models"
+        },
+        {
+          "name": "Arctic",
+          "url": "https://cicero.oslo.no/en/topics/arctic"
+        }
+      ],
+      "involved_researchers": [],
+      "related_research_groups": [
+        {
+          "name": "Atmospheric Sciences",
+          "url": "https://cicero.oslo.no/en/research-groups/atmospheric-sciences"
+        }
+      ],
+      "external_website": null
+    },
+    {
+      "url": "https://cicero.oslo.no/en/projects/pdrmip",
+      "name": "Precipitation Driver Response Model Intercomparison Project (PDRMIP)",
+      "start_date": null,
+      "end_date": null,
+      "date_raw": null,
+      "status": null,
+      "funding": null,
+      "topic_areas": [],
+      "involved_researchers": [
+        {
+          "name": "Gunnar Myhre",
+          "role": "PDRMIP has participation from eleven modelling groups and is led by(gunnar.myhre@cicero.oslo.no) andPiers Forster(P.M.Forster@leeds.ac.uk).",
+          "url": "https://xp.cicero.oslo.no/en/employees/gunnar-myhre"
+        }
+      ],
+      "related_research_groups": [],
+      "external_website": null
+    },
+    {
+      "url": "https://cicero.oslo.no/en/projects/extremeclimtwin",
+      "name": "EXtremeClimTwin: Building capacity on climate extremes through cooperation",
+      "start_date": "1.11.2020",
+      "end_date": "31.10.2023",
+      "date_raw": "1.11.2020 - 31.10.2023",
+      "status": "ended",
+      "funding": null,
+      "topic_areas": [
+        {
+          "name": "Climate impacts internationally",
+          "url": "https://cicero.oslo.no/en/topics/climate-impacts-internationally"
+        },
+        {
+          "name": "Adaptation",
+          "url": "https://cicero.oslo.no/en/topics/adaptation"
+        },
+        {
+          "name": "Precipitation changes",
+          "url": "https://cicero.oslo.no/en/topics/precipitation-changes"
+        },
+        {
+          "name": "Climate risk",
+          "url": "https://cicero.oslo.no/en/topics/climate-risk"
+        },
+        {
+          "name": "Heat waves",
+          "url": "https://cicero.oslo.no/en/topics/heat-waves"
+        },
+        {
+          "name": "Flooding",
+          "url": "https://cicero.oslo.no/en/topics/flooding"
+        },
+        {
+          "name": "Extreme weather",
+          "url": "https://cicero.oslo.no/en/topics/extreme-weather"
+        }
+      ],
+      "involved_researchers": [
+        {
+          "name": "Carley Iles",
+          "role": "Senior Researcher",
+          "url": "https://cicero.oslo.no/en/employees/carley-iles"
+        },
+        {
+          "name": "Anne Sophie Daloz",
+          "role": "Senior Researcher",
+          "url": "https://cicero.oslo.no/en/employees/anne-daloz"
+        },
+        {
+          "name": "Marit Sandstad",
+          "role": "Senior Researcher",
+          "url": "https://cicero.oslo.no/en/employees/marit-sandstad"
+        },
+        {
+          "name": "Jana Sillmann",
+          "role": "Research Group Leader",
+          "url": "https://cicero.oslo.no/en/employees/jana-sillmann"
+        },
+        {
+          "name": "Miriam Stackpole Dahl",
+          "role": "Senior Communication Advisor",
+          "url": "https://cicero.oslo.no/en/employees/miriam-dahl"
+        }
+      ],
+      "related_research_groups": [
+        {
+          "name": "Climate System",
+          "url": "https://cicero.oslo.no/en/research-groups/climate-system"
+        }
+      ],
+      "external_website": null
+    },
+    {
+      "url": "https://cicero.oslo.no/en/projects/4c",
+      "name": "4C – Climate-Carbon Interactions in the Current Century",
+      "start_date": "1.1.2019",
+      "end_date": "31.12.2023",
+      "date_raw": "1.1.2019 - 31.12.2023",
+      "status": "ended",
+      "funding": null,
+      "topic_areas": [
+        {
+          "name": "Climate Models",
+          "url": "https://cicero.oslo.no/en/topics/climate-models"
+        },
+        {
+          "name": "Carbon emissions globally",
+          "url": "https://cicero.oslo.no/en/topics/carbon-emissions-globally"
+        },
+        {
+          "name": "Temperature changes",
+          "url": "https://cicero.oslo.no/en/topics/temperature-changes"
+        },
+        {
+          "name": "Carbon budget",
+          "url": "https://cicero.oslo.no/en/topics/carbon-budget"
+        }
+      ],
+      "involved_researchers": [
+        {
+          "name": "Glen Peters",
+          "role": "Senior Researcher",
+          "url": "https://cicero.oslo.no/en/employees/glen-peters"
+        },
+        {
+          "name": "Robbie Andrew",
+          "role": "Senior Researcher",
+          "url": "https://cicero.oslo.no/en/employees/robbie-andrew"
+        },
+        {
+          "name": "Jan Ivar Korsbakken",
+          "role": "Senior Researcher",
+          "url": "https://cicero.oslo.no/en/employees/jan-korsbakken"
+        },
+        {
+          "name": "Ida Sognnæs",
+          "role": "Senior Researcher",
+          "url": "https://cicero.oslo.no/en/employees/ida-sognnaes"
+        },
+        {
+          "name": "Ben Sanderson",
+          "role": "Research Group Leader",
+          "url": "https://cicero.oslo.no/en/employees/ben-sanderson"
+        },
+        {
+          "name": "Miriam Stackpole Dahl",
+          "role": "Senior Communication Advisor",
+          "url": "https://cicero.oslo.no/en/employees/miriam-dahl"
+        }
+      ],
+      "related_research_groups": [],
+      "external_website": null
+    },
+    {
+      "url": "https://cicero.oslo.no/en/projects/suscap",
+      "name": "SUSCAP: Developing resilience and tolerance of crop resource use efficiency to climate change and air pollution",
+      "start_date": "1.3.2019",
+      "end_date": "31.3.2023",
+      "date_raw": "1.3.2019 - 31.3.2023",
+      "status": "ended",
+      "funding": null,
+      "topic_areas": [
+        {
+          "name": "Climate impacts internationally",
+          "url": "https://cicero.oslo.no/en/topics/climate-impacts-internationally"
+        },
+        {
+          "name": "Food and agriculture",
+          "url": "https://cicero.oslo.no/en/topics/food-and-agriculture"
+        },
+        {
+          "name": "Air pollution",
+          "url": "https://cicero.oslo.no/en/topics/air-pollution"
+        }
+      ],
+      "involved_researchers": [
+        {
+          "name": "Nina Schuhen",
+          "role": "Senior Researcher",
+          "url": "https://cicero.oslo.no/en/employees/nina-schuhen"
+        },
+        {
+          "name": "Carley Iles",
+          "role": "Senior Researcher",
+          "url": "https://cicero.oslo.no/en/employees/carley-iles"
+        },
+        {
+          "name": "Øivind Hodnebrog",
+          "role": "Senior Researcher",
+          "url": "https://cicero.oslo.no/en/employees/oivind-hodnebrog"
+        },
+        {
+          "name": "Bob van Oort",
+          "role": "Senior Researcher",
+          "url": "https://cicero.oslo.no/en/employees/bob-van-oort"
+        }
+      ],
+      "related_research_groups": [
+        {
+          "name": "Climate and society",
+          "url": "https://cicero.oslo.no/en/research-groups/climate-and-society"
+        },
+        {
+          "name": "Atmospheric Sciences",
+          "url": "https://cicero.oslo.no/en/research-groups/atmospheric-sciences"
+        },
+        {
+          "name": "Climate System",
+          "url": "https://cicero.oslo.no/en/research-groups/climate-system"
+        }
+      ],
+      "external_website": null
+    },
+    {
+      "url": "https://cicero.oslo.no/en/projects/verify",
+      "name": "VERIFY: Observation-based system for monitoring and verification of greenhouse gases",
+      "start_date": "1.2.2018",
+      "end_date": "31.7.2022",
+      "date_raw": "1.2.2018 - 31.7.2022",
+      "status": "ended",
+      "funding": null,
+      "topic_areas": [
+        {
+          "name": "Methane",
+          "url": "https://cicero.oslo.no/en/topics/methane"
+        },
+        {
+          "name": "Carbon emissions globally",
+          "url": "https://cicero.oslo.no/en/topics/carbon-emissions-globally"
+        }
+      ],
+      "involved_researchers": [
+        {
+          "name": "Glen Peters",
+          "role": "Senior Researcher",
+          "url": "https://cicero.oslo.no/en/employees/glen-peters"
+        },
+        {
+          "name": "Robbie Andrew",
+          "role": "Senior Researcher",
+          "url": "https://cicero.oslo.no/en/employees/robbie-andrew"
+        },
+        {
+          "name": "Jan Ivar Korsbakken",
+          "role": "Senior Researcher",
+          "url": "https://cicero.oslo.no/en/employees/jan-korsbakken"
+        }
+      ],
+      "related_research_groups": [
+        {
+          "name": "Climate Mitigation",
+          "url": "https://cicero.oslo.no/en/research-groups/climate-mitigation"
+        }
+      ],
+      "external_website": null
+    },
+    {
+      "url": "https://cicero.oslo.no/en/projects/paris-reinforce",
+      "name": "PARIS REINFORCE: Delivering on the Paris Agreement: A demand-driven, integrated assessment modelling approach",
+      "start_date": "1.6.2019",
+      "end_date": "30.11.2022",
+      "date_raw": "1.6.2019 - 30.11.2022",
+      "status": "ended",
+      "funding": null,
+      "topic_areas": [
+        {
+          "name": "Emission scenarios",
+          "url": "https://cicero.oslo.no/en/topics/emission-scenarios"
+        },
+        {
+          "name": "EU climate policy",
+          "url": "https://cicero.oslo.no/en/topics/eu-climate-policy"
+        },
+        {
+          "name": "International climate policy",
+          "url": "https://cicero.oslo.no/en/topics/international-climate-policy"
+        },
+        {
+          "name": "Global climate targets",
+          "url": "https://cicero.oslo.no/en/topics/global-climate-targets"
+        }
+      ],
+      "involved_researchers": [
+        {
+          "name": "Glen Peters",
+          "role": "Senior Researcher",
+          "url": "https://cicero.oslo.no/en/employees/glen-peters"
+        },
+        {
+          "name": "Ida Sognnæs",
+          "role": "Senior Researcher",
+          "url": "https://cicero.oslo.no/en/employees/ida-sognnaes"
+        },
+        {
+          "name": "Erlend Hermansen",
+          "role": "Senior Researcher",
+          "url": "https://cicero.oslo.no/en/employees/erlend-hermansen"
+        },
+        {
+          "name": "Bård Lahn",
+          "role": "Senior Researcher",
+          "url": "https://cicero.oslo.no/en/employees/bard-lahn"
+        },
+        {
+          "name": "Robbie Andrew",
+          "role": "Senior Researcher",
+          "url": "https://cicero.oslo.no/en/employees/robbie-andrew"
+        }
+      ],
+      "related_research_groups": [
+        {
+          "name": "Climate Mitigation",
+          "url": "https://cicero.oslo.no/en/research-groups/climate-mitigation"
+        },
+        {
+          "name": "Climate Policy",
+          "url": "https://cicero.oslo.no/en/research-groups/climate-policy"
+        }
+      ],
+      "external_website": null
+    },
+    {
+      "url": "https://cicero.oslo.no/en/projects/coco2",
+      "name": "CICERO is helping to develop a new global emissions monitoring service (Coco₂)",
+      "start_date": "1.1.2021",
+      "end_date": "31.12.2023",
+      "date_raw": "1.1.2021 - 31.12.2023",
+      "status": "ended",
+      "funding": null,
+      "topic_areas": [
+        {
+          "name": "Carbon budget",
+          "url": "https://cicero.oslo.no/en/topics/carbon-budget"
+        },
+        {
+          "name": "Carbon emissions globally",
+          "url": "https://cicero.oslo.no/en/topics/carbon-emissions-globally"
+        }
+      ],
+      "involved_researchers": [
+        {
+          "name": "Glen Peters",
+          "role": "Senior Researcher",
+          "url": "https://cicero.oslo.no/en/employees/glen-peters"
+        },
+        {
+          "name": "Robbie Andrew",
+          "role": "Senior Researcher",
+          "url": "https://cicero.oslo.no/en/employees/robbie-andrew"
+        },
+        {
+          "name": "Jan Ivar Korsbakken",
+          "role": "Senior Researcher",
+          "url": "https://cicero.oslo.no/en/employees/jan-korsbakken"
+        },
+        {
+          "name": "Miriam Stackpole Dahl",
+          "role": "Senior Communication Advisor",
+          "url": "https://cicero.oslo.no/en/employees/miriam-dahl"
+        }
+      ],
+      "related_research_groups": [],
+      "external_website": null
+    },
+    {
+      "url": "https://cicero.oslo.no/en/projects/politically-feasible-renewable-energy-development-the-role-of-public-acceptance-copy",
+      "name": "Politically Feasible Renewable Energy Development: The Role of Public Acceptance",
+      "start_date": null,
+      "end_date": null,
+      "date_raw": null,
+      "status": null,
+      "funding": null,
+      "topic_areas": [
+        {
+          "name": "Renewable energy",
+          "url": "https://cicero.oslo.no/en/topics/renewable-energy"
+        },
+        {
+          "name": "Acceptance",
+          "url": "https://cicero.oslo.no/en/topics/acceptance"
+        }
+      ],
+      "involved_researchers": [
+        {
+          "name": "Steffen Kallbekken",
+          "role": "Research Group Leader",
+          "url": "https://cicero.oslo.no/en/employees/steffen-kallbekken"
+        },
+        {
+          "name": "Marianne Aasen",
+          "role": "Senior Researcher",
+          "url": "https://cicero.oslo.no/en/employees/marianne-aasen"
+        },
+        {
+          "name": "Asbjørn Torvanger",
+          "role": "Senior Researcher",
+          "url": "https://cicero.oslo.no/en/employees/asbjorn-torvanger"
+        }
+      ],
+      "related_research_groups": [
+        {
+          "name": "Climate Economics",
+          "url": "https://cicero.oslo.no/en/research-groups/climate-economics"
+        }
+      ],
+      "external_website": null
+    },
+    {
+      "url": "https://cicero.oslo.no/en/projects/fornybar-energipolitikk-i-europa-copy",
+      "name": "Revising the national renewables policy mix in Europe - REMIX",
+      "start_date": "4.5.2015",
+      "end_date": "31.5.2019",
+      "date_raw": "4.5.2015 - 31.5.2019",
+      "status": "ended",
+      "funding": null,
+      "topic_areas": [
+        {
+          "name": "Renewable energy",
+          "url": "https://cicero.oslo.no/en/topics/renewable-energy"
+        },
+        {
+          "name": "Energy policy in Norway",
+          "url": "https://cicero.oslo.no/en/topics/energy-policy-in-norway"
+        },
+        {
+          "name": "Energy policy in the EU",
+          "url": "https://cicero.oslo.no/en/topics/energy-policy-in-the-eu"
+        }
+      ],
+      "involved_researchers": [
+        {
+          "name": "Merethe Dotterud Leiren",
+          "role": "Research Group Leader",
+          "url": "https://cicero.oslo.no/en/employees/merethe-leiren"
+        },
+        {
+          "name": "Elin Boasson",
+          "role": "Professor",
+          "url": "https://cicero.oslo.no/en/employees/elin-boasson"
+        }
+      ],
+      "related_research_groups": [
+        {
+          "name": "Climate Policy",
+          "url": "https://cicero.oslo.no/en/research-groups/climate-policy"
+        }
+      ],
+      "external_website": null
+    },
+    {
+      "url": "https://cicero.oslo.no/en/projects/from-emission-to-extraction-the-political-economy-of-leaving-fossil-fuels-in-the-ground",
+      "name": "From emission to extraction: The political economy of leaving fossil fuels in the ground",
+      "start_date": "1.6.2015",
+      "end_date": "31.5.2019",
+      "date_raw": "1.6.2015 - 31.5.2019",
+      "status": "ended",
+      "funding": null,
+      "topic_areas": [
+        {
+          "name": "Oil and gas policy",
+          "url": "https://cicero.oslo.no/en/topics/oil-and-gas-policy"
+        },
+        {
+          "name": "Carbon budget",
+          "url": "https://cicero.oslo.no/en/topics/carbon-budget"
+        },
+        {
+          "name": "Norwegian climate policy",
+          "url": "https://cicero.oslo.no/en/topics/norwegian-climate-policy"
+        },
+        {
+          "name": "International climate policy",
+          "url": "https://cicero.oslo.no/en/topics/international-climate-policy"
+        }
+      ],
+      "involved_researchers": [
+        {
+          "name": "Bård Lahn",
+          "role": "Senior Researcher",
+          "url": "https://cicero.oslo.no/en/employees/bard-lahn"
+        }
+      ],
+      "related_research_groups": [
+        {
+          "name": "Climate Policy",
+          "url": "https://cicero.oslo.no/en/research-groups/climate-policy"
+        }
+      ],
+      "external_website": null
+    },
+    {
+      "url": "https://cicero.oslo.no/en/projects/shareon-sharing-economy-motivations-barriers-and-climate-effects",
+      "name": "SHAREON - sharing economy - motivations, barriers and climate effects",
+      "start_date": "1.1.2017",
+      "end_date": "31.3.2021",
+      "date_raw": "1.1.2017 - 31.3.2021",
+      "status": "ended",
+      "funding": null,
+      "topic_areas": [
+        {
+          "name": "Circular economy",
+          "url": "https://cicero.oslo.no/en/topics/circular-economy"
+        },
+        {
+          "name": "Climate transition in Norwegian municipalities",
+          "url": "https://cicero.oslo.no/en/topics/climate-transition-in-norwegian-municipalities"
+        }
+      ],
+      "involved_researchers": [
+        {
+          "name": "Hege Westskog",
+          "role": "Senior Researcher",
+          "url": "https://cicero.oslo.no/en/employees/hege-westskog"
+        },
+        {
+          "name": "Helene Amundsen",
+          "role": "Senior Researcher",
+          "url": "https://cicero.oslo.no/en/employees/helene-amundsen"
+        },
+        {
+          "name": "Steffen Kallbekken",
+          "role": "Research Group Leader",
+          "url": "https://cicero.oslo.no/en/employees/steffen-kallbekken"
+        },
+        {
+          "name": "Marianne Aasen",
+          "role": "Senior Researcher",
+          "url": "https://cicero.oslo.no/en/employees/marianne-aasen"
+        },
+        {
+          "name": "Astrid Arnslett",
+          "role": "Senior Communication Advisor",
+          "url": "https://cicero.oslo.no/en/employees/astrid-arnslett"
+        }
+      ],
+      "related_research_groups": [
+        {
+          "name": "Climate and society",
+          "url": "https://cicero.oslo.no/en/research-groups/climate-and-society"
+        }
+      ],
+      "external_website": null
+    },
+    {
+      "url": "https://cicero.oslo.no/en/projects/local-environmental-agreements-contribution-to-sustainable-land-and-transport-development",
+      "name": "Local environmental agreements' contribution to sustainable land and transport development",
+      "start_date": "1.9.2016",
+      "end_date": "31.12.2019",
+      "date_raw": "1.9.2016 - 31.12.2019",
+      "status": "ended",
+      "funding": null,
+      "topic_areas": [
+        {
+          "name": "Land use",
+          "url": "https://cicero.oslo.no/en/topics/land-use"
+        },
+        {
+          "name": "Transport",
+          "url": "https://cicero.oslo.no/en/topics/transport"
+        },
+        {
+          "name": "Climate transition in Norwegian municipalities",
+          "url": "https://cicero.oslo.no/en/topics/climate-transition-in-norwegian-municipalities"
+        }
+      ],
+      "involved_researchers": [
+        {
+          "name": "Anders Tønnesen",
+          "role": "Senior Researcher",
+          "url": "https://cicero.oslo.no/en/employees/anders-tonnesen"
+        },
+        {
+          "name": "Hege Westskog",
+          "role": "Senior Researcher",
+          "url": "https://cicero.oslo.no/en/employees/hege-westskog"
+        },
+        {
+          "name": "Helene Amundsen",
+          "role": "Senior Researcher",
+          "url": "https://cicero.oslo.no/en/employees/helene-amundsen"
+        },
+        {
+          "name": "Astrid Arnslett",
+          "role": "Senior Communication Advisor",
+          "url": "https://cicero.oslo.no/en/employees/astrid-arnslett"
+        }
+      ],
+      "related_research_groups": [
+        {
+          "name": "Climate and society",
+          "url": "https://cicero.oslo.no/en/research-groups/climate-and-society"
+        }
+      ],
+      "external_website": null
+    },
+    {
+      "url": "https://cicero.oslo.no/en/projects/flexible-electricity-use-in-households-barriers-opportunities-and-effects-flexeffect",
+      "name": "Flexible electricity use in households: barriers, opportunities and effects (FLEXEFFECT)",
+      "start_date": "1.6.2019",
+      "end_date": "31.12.2022",
+      "date_raw": "1.6.2019 - 31.12.2022",
+      "status": "ended",
+      "funding": null,
+      "topic_areas": [
+        {
+          "name": "Renewable energy",
+          "url": "https://cicero.oslo.no/en/topics/renewable-energy"
+        },
+        {
+          "name": "Energy consumption",
+          "url": "https://cicero.oslo.no/en/topics/energy-consumption"
+        },
+        {
+          "name": "Energy policy in Norway",
+          "url": "https://cicero.oslo.no/en/topics/energy-policy-in-norway"
+        },
+        {
+          "name": "Just transition",
+          "url": "https://cicero.oslo.no/en/topics/just-transition"
+        }
+      ],
+      "involved_researchers": [
+        {
+          "name": "Karina Standal",
+          "role": "Senior Researcher",
+          "url": "https://cicero.oslo.no/en/employees/karina-standal"
+        },
+        {
+          "name": "Marianne Aasen",
+          "role": "Senior Researcher",
+          "url": "https://cicero.oslo.no/en/employees/marianne-aasen"
+        },
+        {
+          "name": "Astrid Arnslett",
+          "role": "Senior Communication Advisor",
+          "url": "https://cicero.oslo.no/en/employees/astrid-arnslett"
+        }
+      ],
+      "related_research_groups": [
+        {
+          "name": "Climate and society",
+          "url": "https://cicero.oslo.no/en/research-groups/climate-and-society"
+        }
+      ],
+      "external_website": null
+    },
+    {
+      "url": "https://cicero.oslo.no/en/projects/vom--incentives-for-measures-for-food-system-transition",
+      "name": "VOM – Incentives for Measures for Food system Transition",
+      "start_date": "1.4.2021",
+      "end_date": "31.3.2025",
+      "date_raw": "1.4.2021 - 31.3.2025",
+      "status": "ended",
+      "funding": null,
+      "topic_areas": [
+        {
+          "name": "Food and agriculture",
+          "url": "https://cicero.oslo.no/en/topics/food-and-agriculture"
+        }
+      ],
+      "involved_researchers": [
+        {
+          "name": "Bob van Oort",
+          "role": "Senior Researcher",
+          "url": "https://cicero.oslo.no/en/employees/bob-van-oort"
+        },
+        {
+          "name": "Nora Ytreberg",
+          "role": "Researcher",
+          "url": "https://cicero.oslo.no/en/employees/nora-ytreberg"
+        },
+        {
+          "name": "Fay Madeleine Farstad",
+          "role": "Senior Researcher",
+          "url": "https://cicero.oslo.no/en/employees/fay-farstad"
+        },
+        {
+          "name": "Erlend Hermansen",
+          "role": "Senior Researcher",
+          "url": "https://cicero.oslo.no/en/employees/erlend-hermansen"
+        },
+        {
+          "name": "Nina Holmelin",
+          "role": "Senior Researcher",
+          "url": "https://cicero.oslo.no/en/employees/nina-holmelin"
+        },
+        {
+          "name": "Astrid Arnslett",
+          "role": "Senior Communication Advisor",
+          "url": "https://cicero.oslo.no/en/employees/astrid-arnslett"
+        }
+      ],
+      "related_research_groups": [
+        {
+          "name": "Climate and society",
+          "url": "https://cicero.oslo.no/en/research-groups/climate-and-society"
+        }
+      ],
+      "external_website": null
+    },
+    {
+      "url": "https://cicero.oslo.no/en/projects/sustain",
+      "name": "SUSTAIN",
+      "start_date": "1.9.2021",
+      "end_date": "31.8.2025",
+      "date_raw": "1.9.2021 - 31.8.2025",
+      "status": "ended",
+      "funding": null,
+      "topic_areas": [
+        {
+          "name": "Transport",
+          "url": "https://cicero.oslo.no/en/topics/transport"
+        },
+        {
+          "name": "Climate transition in Norwegian municipalities",
+          "url": "https://cicero.oslo.no/en/topics/climate-transition-in-norwegian-municipalities"
+        },
+        {
+          "name": "Acceptance",
+          "url": "https://cicero.oslo.no/en/topics/acceptance"
+        }
+      ],
+      "involved_researchers": [
+        {
+          "name": "Anders Tønnesen",
+          "role": "Senior Researcher",
+          "url": "https://cicero.oslo.no/en/employees/anders-tonnesen"
+        },
+        {
+          "name": "Marianne Aasen",
+          "role": "Senior Researcher",
+          "url": "https://cicero.oslo.no/en/employees/marianne-aasen"
+        },
+        {
+          "name": "Nina Holmelin",
+          "role": "Senior Researcher",
+          "url": "https://cicero.oslo.no/en/employees/nina-holmelin"
+        },
+        {
+          "name": "Astrid Arnslett",
+          "role": "Senior Communication Advisor",
+          "url": "https://cicero.oslo.no/en/employees/astrid-arnslett"
+        }
+      ],
+      "related_research_groups": [
+        {
+          "name": "Climate and society",
+          "url": "https://cicero.oslo.no/en/research-groups/climate-and-society"
+        }
+      ],
+      "external_website": null
+    },
+    {
+      "url": "https://cicero.oslo.no/en/projects/pitch",
+      "name": "Primary Industries and Transformational Change",
+      "start_date": "1.4.2014",
+      "end_date": "31.3.2018",
+      "date_raw": "1.4.2014 - 31.3.2018",
+      "status": "ended",
+      "funding": null,
+      "topic_areas": [
+        {
+          "name": "Adaptation in Norway",
+          "url": "https://cicero.oslo.no/en/topics/adaption-in-norway"
+        },
+        {
+          "name": "Climate risk",
+          "url": "https://cicero.oslo.no/en/topics/climate-risk"
+        },
+        {
+          "name": "Extreme weather",
+          "url": "https://cicero.oslo.no/en/topics/extreme-weather"
+        }
+      ],
+      "involved_researchers": [],
+      "related_research_groups": [
+        {
+          "name": "Climate and society",
+          "url": "https://cicero.oslo.no/en/research-groups/climate-and-society"
+        }
+      ],
+      "external_website": null
+    },
+    {
+      "url": "https://cicero.oslo.no/en/projects/HICAP",
+      "name": "The Himalayan Climate Change Adaptation Programme (HICAP)",
+      "start_date": "1.9.2012",
+      "end_date": "1.12.2016",
+      "date_raw": "1.9.2012 - 1.12.2016",
+      "status": "ended",
+      "funding": null,
+      "topic_areas": [
+        {
+          "name": "Food and agriculture",
+          "url": "https://cicero.oslo.no/en/topics/food-and-agriculture"
+        },
+        {
+          "name": "Adaptation",
+          "url": "https://cicero.oslo.no/en/topics/adaptation"
+        }
+      ],
+      "involved_researchers": [],
+      "related_research_groups": [
+        {
+          "name": "Climate and society",
+          "url": "https://cicero.oslo.no/en/research-groups/climate-and-society"
+        }
+      ],
+      "external_website": null
+    },
+    {
+      "url": "https://cicero.oslo.no/en/projects/sis-klimat-copy",
+      "name": "SIS-Klimat - Climate transitions in the Norwegian food system",
+      "start_date": null,
+      "end_date": null,
+      "date_raw": null,
+      "status": null,
+      "funding": null,
+      "topic_areas": [
+        {
+          "name": "Food and agriculture",
+          "url": "https://cicero.oslo.no/en/topics/food-and-agriculture"
+        },
+        {
+          "name": "Methane",
+          "url": "https://cicero.oslo.no/en/topics/methane"
+        },
+        {
+          "name": "Norwegian climate policy",
+          "url": "https://cicero.oslo.no/en/topics/norwegian-climate-policy"
+        },
+        {
+          "name": "Energy policy in Norway",
+          "url": "https://cicero.oslo.no/en/topics/energy-policy-in-norway"
+        }
+      ],
+      "involved_researchers": [],
+      "related_research_groups": [
+        {
+          "name": "Climate and society",
+          "url": "https://cicero.oslo.no/en/research-groups/climate-and-society"
+        }
+      ],
+      "external_website": null
+    },
+    {
+      "url": "https://cicero.oslo.no/en/projects/climate-change-mitigation-and-adaptation-in-the-forest-plantation-sector-copy",
+      "name": "Climate change mitigation and adaptation in the forest plantation sector",
+      "start_date": "1.1.2012",
+      "end_date": "1.1.2015",
+      "date_raw": "1.1.2012 - 1.1.2015",
+      "status": "ended",
+      "funding": null,
+      "topic_areas": [
+        {
+          "name": "Adaptation",
+          "url": "https://cicero.oslo.no/en/topics/adaptation"
+        }
+      ],
+      "involved_researchers": [],
+      "related_research_groups": [
+        {
+          "name": "Climate and society",
+          "url": "https://cicero.oslo.no/en/research-groups/climate-and-society"
+        }
+      ],
+      "external_website": null
+    },
+    {
+      "url": "https://cicero.oslo.no/en/projects/cixpag",
+      "name": "CiXPAG - Interaction of Climate Extremes, Air Pollution and Agro-ecosystems",
+      "start_date": "1.1.2015",
+      "end_date": "1.1.2020",
+      "date_raw": "1.1.2015 - 1.1.2020",
+      "status": "ended",
+      "funding": null,
+      "topic_areas": [],
+      "involved_researchers": [],
+      "related_research_groups": [
+        {
+          "name": "Climate Impacts",
+          "url": "https://cicero.oslo.no/en/research-groups/climate-impacts"
+        }
+      ],
+      "external_website": null
+    },
+    {
+      "url": "https://cicero.oslo.no/en/projects/winwind",
+      "name": "WinWind",
+      "start_date": null,
+      "end_date": null,
+      "date_raw": null,
+      "status": null,
+      "funding": null,
+      "topic_areas": [
+        {
+          "name": "Wind power",
+          "url": "https://cicero.oslo.no/en/topics/wind-power"
+        }
+      ],
+      "involved_researchers": [],
+      "related_research_groups": [
+        {
+          "name": "Climate Policy",
+          "url": "https://cicero.oslo.no/en/research-groups/climate-policy"
+        }
+      ],
+      "external_website": null
+    },
+    {
+      "url": "https://cicero.oslo.no/en/projects/acacia",
+      "name": "ACACIA – Advancing the Science for Aviation and Climate",
+      "start_date": "1.1.2020",
+      "end_date": "1.12.2023",
+      "date_raw": "1.1.2020 - 1.12.2023",
+      "status": "ended",
+      "funding": null,
+      "topic_areas": [
+        {
+          "name": "Transport",
+          "url": "https://cicero.oslo.no/en/topics/transport"
+        },
+        {
+          "name": "Atmospheric particles",
+          "url": "https://cicero.oslo.no/en/topics/atmospheric-particles"
+        },
+        {
+          "name": "Air pollution",
+          "url": "https://cicero.oslo.no/en/topics/air-pollution"
+        }
+      ],
+      "involved_researchers": [],
+      "related_research_groups": [
+        {
+          "name": "Climate System",
+          "url": "https://cicero.oslo.no/en/research-groups/climate-system"
+        }
+      ],
+      "external_website": null
+    },
+    {
+      "url": "https://cicero.oslo.no/en/projects/super",
+      "name": "SUPER - SUb-daily Precipitation Extremes in highly-populated Regions",
+      "start_date": "1.1.2016",
+      "end_date": "31.12.2020",
+      "date_raw": "1.1.2016 - 31.12.2020",
+      "status": "ended",
+      "funding": null,
+      "topic_areas": [
+        {
+          "name": "Precipitation changes",
+          "url": "https://cicero.oslo.no/en/topics/precipitation-changes"
+        },
+        {
+          "name": "Flooding",
+          "url": "https://cicero.oslo.no/en/topics/flooding"
+        }
+      ],
+      "involved_researchers": [],
+      "related_research_groups": [
+        {
+          "name": "Atmospheric Sciences",
+          "url": "https://cicero.oslo.no/en/research-groups/atmospheric-sciences"
+        }
+      ],
+      "external_website": null
+    },
+    {
+      "url": "https://cicero.oslo.no/en/projects/aridity",
+      "name": "ARIDITY - The role of anthropogenic dust in the present and future climate system",
+      "start_date": "1.10.2021",
+      "end_date": "31.12.2025",
+      "date_raw": "1.10.2021 - 31.12.2025",
+      "status": "ongoing",
+      "funding": null,
+      "topic_areas": [
+        {
+          "name": "Atmospheric particles",
+          "url": "https://cicero.oslo.no/en/topics/atmospheric-particles"
+        },
+        {
+          "name": "Climate Models",
+          "url": "https://cicero.oslo.no/en/topics/climate-models"
+        },
+        {
+          "name": "Air pollution",
+          "url": "https://cicero.oslo.no/en/topics/air-pollution"
+        },
+        {
+          "name": "Precipitation changes",
+          "url": "https://cicero.oslo.no/en/topics/precipitation-changes"
+        }
+      ],
+      "involved_researchers": [
+        {
+          "name": "Bjørn Hallvard Samset",
+          "role": "Senior Researcher",
+          "url": "https://cicero.oslo.no/en/employees/bjorn-hallvard-samset"
+        },
+        {
+          "name": "Gunnar Myhre",
+          "role": "Research Director",
+          "url": "https://cicero.oslo.no/en/employees/gunnar-myhre"
+        },
+        {
+          "name": "Marianne Tronstad Lund",
+          "role": "Research Director",
+          "url": "https://cicero.oslo.no/en/employees/marianne-lund"
+        }
+      ],
+      "related_research_groups": [
+        {
+          "name": "Climate System",
+          "url": "https://cicero.oslo.no/en/research-groups/climate-system"
+        }
+      ],
+      "external_website": null
+    },
+    {
+      "url": "https://cicero.oslo.no/en/projects/great",
+      "name": "GREAT - Greenhouse gases, aerosols and lower atmospheric turbulence",
+      "start_date": "1.1.2018",
+      "end_date": "31.12.2023",
+      "date_raw": "1.1.2018 - 31.12.2023",
+      "status": "ended",
+      "funding": null,
+      "topic_areas": [
+        {
+          "name": "Atmospheric particles",
+          "url": "https://cicero.oslo.no/en/topics/atmospheric-particles"
+        },
+        {
+          "name": "Air pollution",
+          "url": "https://cicero.oslo.no/en/topics/air-pollution"
+        }
+      ],
+      "involved_researchers": [
+        {
+          "name": "Øivind Hodnebrog",
+          "role": "Senior Researcher",
+          "url": "https://cicero.oslo.no/en/employees/oivind-hodnebrog"
+        },
+        {
+          "name": "Camilla Stjern",
+          "role": "Senior Researcher",
+          "url": "https://cicero.oslo.no/en/employees/camilla-stjern"
+        },
+        {
+          "name": "Gunnar Myhre",
+          "role": "Research Director",
+          "url": "https://cicero.oslo.no/en/employees/gunnar-myhre"
+        },
+        {
+          "name": "Iris Mužić",
+          "role": "Researcher",
+          "url": "https://cicero.oslo.no/en/employees/iris-muzic"
+        }
+      ],
+      "related_research_groups": [
+        {
+          "name": "Atmospheric Sciences",
+          "url": "https://cicero.oslo.no/en/research-groups/atmospheric-sciences"
+        }
+      ],
+      "external_website": null
+    },
+    {
+      "url": "https://cicero.oslo.no/en/projects/smart-sustainable-market-actors-for-responsible-trade",
+      "name": "SMART - Sustainable Market Actors for Responsible Trade",
+      "start_date": null,
+      "end_date": null,
+      "date_raw": null,
+      "status": null,
+      "funding": null,
+      "topic_areas": [],
+      "involved_researchers": [],
+      "related_research_groups": [],
+      "external_website": null
+    },
+    {
+      "url": "https://cicero.oslo.no/en/projects/rapid-response-for-energy-and-climate-policy-analysis-eng",
+      "name": "Rapid Response for Energy and Climate Policy Analysis",
+      "start_date": null,
+      "end_date": null,
+      "date_raw": null,
+      "status": null,
+      "funding": null,
+      "topic_areas": [],
+      "involved_researchers": [],
+      "related_research_groups": [],
+      "external_website": null
+    },
+    {
+      "url": "https://cicero.oslo.no/en/projects/connect-the%20international%20context",
+      "name": "CONNECT: The International Context for Norway's Transition to a Low Emissions Economy",
+      "start_date": null,
+      "end_date": null,
+      "date_raw": null,
+      "status": null,
+      "funding": null,
+      "topic_areas": [],
+      "involved_researchers": [],
+      "related_research_groups": [],
+      "external_website": null
+    }
+  ]
+}
