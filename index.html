@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Quiz Game</title>
+    <title>Carbon Emissions Quiz</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -11,8 +11,8 @@
         <div id="quiz-container">
             <div id="challenge-banner" class="challenge-banner hidden"></div>
             <div id="start-screen" class="screen">
-                <h1>🎮 Quiz Challenge</h1>
-                <p>Test your knowledge with this fun quiz!</p>
+                <h1>🌍 Carbon Emissions Quiz</h1>
+                <p>Test your knowledge about global carbon emissions and climate data!</p>
                 <button id="start-btn" class="btn btn-primary">Start Quiz</button>
             </div>
 
@@ -58,8 +58,8 @@
                     <h3>Challenge Your Friends!</h3>
                     <p>Share your score and see if they can beat you!</p>
                     <div class="share-buttons">
-                        <button class="btn share-button" onclick="shareChallenge()">🚀 Share Challenge</button>
-                        <button class="btn share-button" onclick="copyLink()">🔗 Copy Link</button>
+                        <button id="share-btn" class="btn share-button">🚀 Share Challenge</button>
+                        <button id="copy-btn" class="btn share-button">🔗 Copy Link</button>
                     </div>
                     <div class="copy-feedback hidden" id="copy-feedback">✓ Link copied!</div>
                 </div>
