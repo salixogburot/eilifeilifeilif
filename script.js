@@ -57,6 +57,8 @@ let currentQuestion = 0;
 let score = 0;
 let correctAnswers = 0;
 let selectedAnswer = null;
+let userAnswers = [];
+let challengeScore = null;
 
 // DOM elements
 const startScreen = document.getElementById('start-screen');
@@ -71,10 +73,26 @@ const questionNumber = document.getElementById('question-number');
 const scoreElement = document.getElementById('score');
 const progressFill = document.getElementById('progress');
 
+// Check for challenge mode on page load
+window.addEventListener('DOMContentLoaded', checkForChallenge);
+
 // Event listeners
 startBtn.addEventListener('click', startQuiz);
 nextBtn.addEventListener('click', nextQuestion);
 restartBtn.addEventListener('click', restartQuiz);
+
+// Check for challenge parameter in URL
+function checkForChallenge() {
+    const urlParams = new URLSearchParams(window.location.search);
+    const challenge = urlParams.get('challenge');
+
+    if (challenge !== null && !isNaN(challenge)) {
+        challengeScore = parseInt(challenge);
+        const banner = document.getElementById('challenge-banner');
+        banner.innerText = `Your friend got ${challengeScore} correct! Can you beat them?`;
+        banner.classList.remove('hidden');
+    }
+}
 
 function startQuiz() {
     startScreen.classList.add('hidden');
@@ -82,6 +100,7 @@ function startQuiz() {
     currentQuestion = 0;
     score = 0;
     correctAnswers = 0;
+    userAnswers = [];
     loadQuestion();
 }
 
@@ -116,18 +135,28 @@ function selectAnswer(answerIndex) {
     selectedAnswer = answerIndex;
     const question = quizQuestions[currentQuestion];
     const answerButtons = document.querySelectorAll('.answer-btn');
+    const isCorrect = answerIndex === question.correct;
+
+    // Record user answer
+    userAnswers[currentQuestion] = {
+        question: question.question,
+        selectedOption: question.answers[answerIndex],
+        correctOption: question.answers[question.correct],
+        isCorrect: isCorrect
+    };
 
     // Disable all buttons
     answerButtons.forEach(btn => btn.disabled = true);
 
+    // Highlight correct answer always
+    answerButtons[question.correct].classList.add('correct');
+
     // Check if answer is correct
-    if (answerIndex === question.correct) {
-        answerButtons[answerIndex].classList.add('correct');
+    if (isCorrect) {
         score += 10;
         correctAnswers++;
     } else {
         answerButtons[answerIndex].classList.add('incorrect');
-        answerButtons[question.correct].classList.add('correct');
     }
 
     // Update score display
@@ -151,6 +180,10 @@ function showResults() {
     quizScreen.classList.add('hidden');
     resultScreen.classList.remove('hidden');
 
+    // Hide challenge banner
+    const banner = document.getElementById('challenge-banner');
+    banner.classList.add('hidden');
+
     // Update progress to 100%
     progressFill.style.width = '100%';
 
@@ -161,6 +194,28 @@ function showResults() {
     document.getElementById('final-score').textContent = score;
     document.getElementById('correct-answers').textContent = `${correctAnswers}/${quizQuestions.length}`;
     document.getElementById('accuracy').textContent = `${accuracy}%`;
+
+    // Show challenge result if applicable
+    if (challengeScore !== null) {
+        const challengeResultDiv = document.getElementById('challenge-result');
+        let challengeMessage = '';
+        let challengeClass = '';
+
+        if (correctAnswers > challengeScore) {
+            challengeMessage = `🎉 You beat your friend! You got ${correctAnswers} correct vs their ${challengeScore}!`;
+            challengeClass = 'beat';
+        } else if (correctAnswers === challengeScore) {
+            challengeMessage = `🤝 It's a tie! You both got ${correctAnswers} correct!`;
+            challengeClass = 'tie';
+        } else {
+            challengeMessage = `😅 Not quite! You got ${correctAnswers}, your friend got ${challengeScore} correct.`;
+            challengeClass = 'lost';
+        }
+
+        challengeResultDiv.textContent = challengeMessage;
+        challengeResultDiv.className = `challenge-result ${challengeClass}`;
+        challengeResultDiv.classList.remove('hidden');
+    }
 
     // Display message based on performance
     const messageElement = document.getElementById('result-message');
@@ -175,6 +230,9 @@ function showResults() {
     } else {
         messageElement.textContent = "Keep trying! Practice makes perfect!";
     }
+
+    // Display detailed answer summary
+    showAnswerSummary();
 }
 
 function restartQuiz() {
@@ -182,4 +240,84 @@ function restartQuiz() {
     startScreen.classList.remove('hidden');
     progressFill.style.width = '0%';
     scoreElement.textContent = 'Score: 0';
+
+    // Reset challenge result display
+    const challengeResultDiv = document.getElementById('challenge-result');
+    challengeResultDiv.classList.add('hidden');
+
+    // Show challenge banner again if in challenge mode
+    if (challengeScore !== null) {
+        const banner = document.getElementById('challenge-banner');
+        banner.classList.remove('hidden');
+    }
+}
+
+function showAnswerSummary() {
+    const summaryList = document.getElementById('summary-list');
+    summaryList.innerHTML = '';
+
+    userAnswers.forEach((answer, index) => {
+        const itemDiv = document.createElement('div');
+        itemDiv.className = `summary-item ${answer.isCorrect ? 'correct' : 'incorrect'}`;
+
+        const resultIcon = answer.isCorrect ? '✓' : '✗';
+        const resultClass = answer.isCorrect ? 'correct' : 'incorrect';
+
+        let correctAnswerHtml = '';
+        if (!answer.isCorrect) {
+            correctAnswerHtml = `<div class="correct-answer-label">Correct answer: ${answer.correctOption}</div>`;
+        }
+
+        itemDiv.innerHTML = `
+            <div class="summary-question">${index + 1}. ${answer.question}</div>
+            <div class="summary-answer ${resultClass}">
+                <span class="result-icon">${resultIcon}</span>
+                Your answer: ${answer.selectedOption}
+                ${correctAnswerHtml}
+            </div>
+        `;
+
+        summaryList.appendChild(itemDiv);
+    });
+}
+
+function getChallengeUrl() {
+    const baseUrl = window.location.href.split('?')[0];
+    return `${baseUrl}?challenge=${correctAnswers}`;
+}
+
+function shareChallenge() {
+    const url = getChallengeUrl();
+    const text = `I got ${correctAnswers} out of ${quizQuestions.length} correct on this quiz! Can you beat me?`;
+
+    // Try to use Web Share API (works on mobile and some browsers)
+    if (navigator.share) {
+        navigator.share({
+            title: 'Quiz Challenge',
+            text: text,
+            url: url
+        }).catch(err => {
+            console.log('Share cancelled or failed:', err);
+            // Fallback to copy
+            copyLink();
+        });
+    } else {
+        // Fallback: copy to clipboard
+        copyLink();
+    }
+}
+
+function copyLink() {
+    const url = getChallengeUrl();
+
+    navigator.clipboard.writeText(url).then(() => {
+        const feedback = document.getElementById('copy-feedback');
+        feedback.classList.remove('hidden');
+        setTimeout(() => {
+            feedback.classList.add('hidden');
+        }, 3000);
+    }).catch(err => {
+        console.error('Could not copy text:', err);
+        alert('Could not copy link. Please copy manually: ' + url);
+    });
 }
