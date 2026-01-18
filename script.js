@@ -1,54 +1,54 @@
-// Quiz questions database
+// Quiz questions database - Based on Global Carbon Budget 2025 data
 const quizQuestions = [
     {
-        question: "What is the capital of France?",
-        answers: ["London", "Berlin", "Paris", "Madrid"],
+        question: "Which country had the highest fossil carbon emissions in 2023?",
+        answers: ["United States", "India", "China", "Russia"],
         correct: 2
     },
     {
-        question: "Which planet is known as the Red Planet?",
-        answers: ["Venus", "Mars", "Jupiter", "Saturn"],
-        correct: 1
-    },
-    {
-        question: "What is 7 × 8?",
-        answers: ["54", "56", "63", "48"],
-        correct: 1
-    },
-    {
-        question: "Who painted the Mona Lisa?",
-        answers: ["Vincent van Gogh", "Pablo Picasso", "Leonardo da Vinci", "Michelangelo"],
-        correct: 2
-    },
-    {
-        question: "What is the largest ocean on Earth?",
-        answers: ["Atlantic Ocean", "Indian Ocean", "Arctic Ocean", "Pacific Ocean"],
+        question: "By approximately how much did China's carbon emissions increase from 1990 to 2023?",
+        answers: ["50%", "150%", "250%", "390%"],
         correct: 3
     },
     {
-        question: "How many continents are there?",
-        answers: ["5", "6", "7", "8"],
-        correct: 2
-    },
-    {
-        question: "What is the chemical symbol for gold?",
-        answers: ["Go", "Gd", "Au", "Ag"],
-        correct: 2
-    },
-    {
-        question: "Which country is home to the kangaroo?",
-        answers: ["New Zealand", "Australia", "South Africa", "Brazil"],
+        question: "What does MtCO2 stand for in climate science?",
+        answers: ["Metric tonnes of Carbon Dioxide", "Million tonnes of CO2", "Monthly total CO2", "Maximum total CO2"],
         correct: 1
     },
     {
-        question: "What year did World War II end?",
-        answers: ["1943", "1944", "1945", "1946"],
+        question: "Which country reduced its carbon emissions the most (%) between 1990 and 2023?",
+        answers: ["United States (-4%)", "Japan (-15%)", "Germany (-44%)", "Australia (+38%)"],
         correct: 2
     },
     {
-        question: "What is the smallest prime number?",
-        answers: ["0", "1", "2", "3"],
+        question: "What was India's approximate carbon emission increase from 1990 to 2023?",
+        answers: ["+130%", "+230%", "+330%", "+430%"],
+        correct: 3
+    },
+    {
+        question: "In 2023, which country had higher carbon emissions: USA or China?",
+        answers: ["USA (4,918 MtCO2)", "China (12,172 MtCO2)", "They were equal", "Neither emitted carbon"],
+        correct: 1
+    },
+    {
+        question: "To convert carbon (C) to CO2, you multiply by which factor?",
+        answers: ["2.5", "3.664", "5.2", "10"],
+        correct: 1
+    },
+    {
+        question: "Which country increased its emissions between 1990 and 2023?",
+        answers: ["Germany", "Japan", "Australia", "USA"],
         correct: 2
+    },
+    {
+        question: "What was Japan's carbon emissions change from 1990 to 2023?",
+        answers: ["Increased 15%", "Decreased 15%", "Decreased 45%", "Stayed the same"],
+        correct: 1
+    },
+    {
+        question: "According to the Global Carbon Budget, what coordinates international carbon cycle research?",
+        answers: ["United Nations", "Global Carbon Project", "World Bank", "NASA"],
+        correct: 1
     }
 ];
 
