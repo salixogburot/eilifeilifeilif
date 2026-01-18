@@ -72,6 +72,8 @@ const answersElement = document.getElementById('answers');
 const questionNumber = document.getElementById('question-number');
 const scoreElement = document.getElementById('score');
 const progressFill = document.getElementById('progress');
+const shareBtn = document.getElementById('share-btn');
+const copyBtn = document.getElementById('copy-btn');
 
 // Check for challenge mode on page load
 window.addEventListener('DOMContentLoaded', checkForChallenge);
@@ -80,6 +82,8 @@ window.addEventListener('DOMContentLoaded', checkForChallenge);
 startBtn.addEventListener('click', startQuiz);
 nextBtn.addEventListener('click', nextQuestion);
 restartBtn.addEventListener('click', restartQuiz);
+shareBtn.addEventListener('click', shareChallenge);
+copyBtn.addEventListener('click', copyLink);
 
 // Check for challenge parameter in URL
 function checkForChallenge() {
@@ -310,14 +314,47 @@ function shareChallenge() {
 function copyLink() {
     const url = getChallengeUrl();
 
-    navigator.clipboard.writeText(url).then(() => {
+    // Check if clipboard API is available
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(url).then(() => {
+            const feedback = document.getElementById('copy-feedback');
+            feedback.classList.remove('hidden');
+            setTimeout(() => {
+                feedback.classList.add('hidden');
+            }, 3000);
+        }).catch(err => {
+            console.error('Could not copy text:', err);
+            fallbackCopyToClipboard(url);
+        });
+    } else {
+        // Fallback for browsers that don't support clipboard API
+        fallbackCopyToClipboard(url);
+    }
+}
+
+function fallbackCopyToClipboard(text) {
+    // Create a temporary textarea element
+    const textarea = document.createElement('textarea');
+    textarea.value = text;
+    textarea.style.position = 'fixed';
+    textarea.style.top = '0';
+    textarea.style.left = '0';
+    textarea.style.opacity = '0';
+    document.body.appendChild(textarea);
+    textarea.select();
+
+    try {
+        document.execCommand('copy');
         const feedback = document.getElementById('copy-feedback');
         feedback.classList.remove('hidden');
         setTimeout(() => {
             feedback.classList.add('hidden');
         }, 3000);
-    }).catch(err => {
-        console.error('Could not copy text:', err);
-        alert('Could not copy link. Please copy manually: ' + url);
-    });
+    } catch (err) {
+        console.error('Fallback copy failed:', err);
+        // Show a prompt with the URL
+        prompt('Copy this link:', text);
+    } finally {
+        document.body.removeChild(textarea);
+    }
 }
