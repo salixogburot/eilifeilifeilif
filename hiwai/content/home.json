@@ -1,0 +1,35 @@
+{
+    "hero": {
+        "title": "Understanding Hydrogen's Impact on Climate",
+        "subtitle": "HIWAI is a pioneering research project investigating how hydrogen emissions affect atmospheric chemistry and contribute to climate change. Our work bridges science and policy to shape a sustainable hydrogen economy."
+    },
+    "features": [
+        {
+            "icon": "H\u2082",
+            "title": "Hydrogen Emissions Research",
+            "description": "Quantifying hydrogen emissions from natural and anthropogenic sources to understand their atmospheric concentrations and trends."
+        },
+        {
+            "icon": "\ud83c\udf21\ufe0f",
+            "title": "Climate Impact Assessment",
+            "description": "Analyzing how hydrogen influences atmospheric chemistry, including its effects on methane lifetime and stratospheric water vapor."
+        },
+        {
+            "icon": "\ud83d\udcca",
+            "title": "Atmospheric Modeling",
+            "description": "Developing and applying state-of-the-art models to simulate hydrogen cycling and predict future climate scenarios."
+        },
+        {
+            "icon": "\ud83c\udf0d",
+            "title": "Policy Guidance",
+            "description": "Translating scientific findings into actionable recommendations for policymakers and industry stakeholders."
+        }
+    ],
+    "latestNews": [
+        {
+            "title": "HIWAI Project Launches",
+            "date": "2024-01-15",
+            "excerpt": "We are excited to announce the official launch of the HIWAI research project..."
+        }
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "siteName": "HIWAI",
+    "siteTitle": "HIWAI - Hydrogen Impacts on Water and Atmospheric Interactions",
+    "siteDescription": "Research project investigating hydrogen emissions and their impact on climate change",
+    "footer": {
+        "description": "HIWAI is a collaborative research project dedicated to understanding hydrogen emissions and their role in climate change. Our interdisciplinary team works to advance scientific knowledge and inform policy decisions."
+    },
+    "contact": {
+        "email": "contact@hiwai-project.org",
+        "address": "Research Institute\nUniversity Campus\nCity, Country"
+    },
+    "social": {
+        "twitter": "",
+        "linkedin": "",
+        "github": ""
+    }
+}
