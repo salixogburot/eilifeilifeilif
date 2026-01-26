@@ -1,0 +1,54 @@
+{
+    "intro": {
+        "title": "About HIWAI",
+        "content": "HIWAI (Hydrogen Impacts on Water and Atmospheric Interactions) is an international research project dedicated to understanding how hydrogen emissions affect our climate system."
+    },
+    "sections": [
+        {
+            "title": "Our Mission",
+            "content": [
+                "As the world transitions toward hydrogen as a clean energy carrier, understanding the environmental implications of hydrogen emissions becomes critical. HIWAI aims to provide the scientific foundation needed for informed decision-making in the emerging hydrogen economy.",
+                "Our mission is to quantify hydrogen emissions, understand their atmospheric chemistry, and assess their impact on climate change. We work to bridge the gap between scientific research and policy implementation."
+            ]
+        },
+        {
+            "title": "Why Hydrogen Matters",
+            "content": [
+                "While hydrogen itself is not a direct greenhouse gas, it plays an important role in atmospheric chemistry. When released into the atmosphere, hydrogen can affect the lifetime of methane (a potent greenhouse gas) and influence stratospheric water vapor levels.",
+                "As hydrogen production and use expand globally, understanding these indirect climate effects is essential for ensuring that the hydrogen transition delivers its promised climate benefits."
+            ]
+        },
+        {
+            "title": "Our Approach",
+            "content": [
+                "HIWAI combines field measurements, laboratory experiments, and advanced atmospheric modeling to create a comprehensive understanding of hydrogen's climate impact. Our interdisciplinary team brings together expertise in atmospheric chemistry, climate science, and energy systems.",
+                "We collaborate with industry partners, policymakers, and fellow researchers worldwide to ensure our findings translate into practical guidance for the hydrogen transition."
+            ]
+        }
+    ],
+    "stats": [
+        {
+            "value": "4+",
+            "label": "Partner Institutions"
+        },
+        {
+            "value": "12+",
+            "label": "Researchers"
+        },
+        {
+            "value": "5",
+            "label": "Countries"
+        },
+        {
+            "value": "2024",
+            "label": "Project Start"
+        }
+    ],
+    "objectives": [
+        "Quantify hydrogen emissions from natural and anthropogenic sources",
+        "Model hydrogen's atmospheric chemistry and climate feedbacks",
+        "Develop monitoring protocols for hydrogen emissions",
+        "Provide policy guidance for sustainable hydrogen deployment",
+        "Train the next generation of researchers in hydrogen-climate science"
+    ]
+}

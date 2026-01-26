@@ -1,0 +1,48 @@
+{
+    "articles": [
+        {
+            "id": "1",
+            "title": "HIWAI Project Officially Launches",
+            "date": "2024-01-15",
+            "excerpt": "We are thrilled to announce the official launch of the HIWAI (Hydrogen Impacts on Water and Atmospheric Interactions) research project. Our interdisciplinary team will investigate the climate implications of hydrogen emissions as the world transitions to a hydrogen economy.",
+            "content": "We are thrilled to announce the official launch of the HIWAI (Hydrogen Impacts on Water and Atmospheric Interactions) research project...",
+            "image": "",
+            "tags": ["Announcement", "Research"],
+            "author": "HIWAI Team",
+            "link": ""
+        },
+        {
+            "id": "2",
+            "title": "New Study Reveals Hydrogen's Role in Atmospheric Chemistry",
+            "date": "2024-02-20",
+            "excerpt": "Our latest research published in Nature Climate Change demonstrates that hydrogen emissions can significantly influence methane lifetime in the atmosphere, with important implications for climate mitigation strategies.",
+            "content": "Our latest research published in Nature Climate Change demonstrates...",
+            "image": "",
+            "tags": ["Publication", "Atmospheric Chemistry"],
+            "author": "HIWAI Team",
+            "link": ""
+        },
+        {
+            "id": "3",
+            "title": "HIWAI Team Presents at International Climate Conference",
+            "date": "2024-03-10",
+            "excerpt": "Members of the HIWAI research team presented their findings on hydrogen emissions and climate feedback mechanisms at the International Conference on Climate Science in Vienna.",
+            "content": "Members of the HIWAI research team presented their findings...",
+            "image": "",
+            "tags": ["Conference", "Presentation"],
+            "author": "HIWAI Team",
+            "link": ""
+        },
+        {
+            "id": "4",
+            "title": "Partnership Announced with Leading Climate Research Institutions",
+            "date": "2024-04-05",
+            "excerpt": "HIWAI is expanding its collaborative network with new partnerships with three leading climate research institutions, enhancing our capacity for global-scale hydrogen emissions monitoring.",
+            "content": "HIWAI is expanding its collaborative network...",
+            "image": "",
+            "tags": ["Partnership", "Collaboration"],
+            "author": "HIWAI Team",
+            "link": ""
+        }
+    ]
+}

@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HIWAI CMS - Content Management</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="cms.css">
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect fill='%230066cc' rx='15' width='100' height='100'/><text x='50' y='65' font-size='40' fill='white' text-anchor='middle' font-family='sans-serif' font-weight='bold'>H2</text></svg>">
+</head>
+<body class="cms-body">
+    <!-- Header -->
+    <header class="cms-header">
+        <div class="container header-container">
+            <a href="../index.html" class="logo">
+                <div class="logo-icon">H<sub>2</sub></div>
+                <span class="logo-text">HI<span>WAI</span> <small>CMS</small></span>
+            </a>
+            <nav>
+                <ul>
+                    <li><a href="../index.html" target="_blank">View Site</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="cms-main">
+        <div class="container">
+            <div class="cms-layout">
+                <!-- Sidebar -->
+                <aside class="cms-sidebar">
+                    <h3>Content Sections</h3>
+                    <ul class="cms-nav">
+                        <li><a href="#" class="active" data-section="home">Home Page</a></li>
+                        <li><a href="#" data-section="about">About Page</a></li>
+                        <li><a href="#" data-section="news">News Articles</a></li>
+                        <li><a href="#" data-section="team">Team Members</a></li>
+                        <li><a href="#" data-section="organizations">Organizations</a></li>
+                        <li><a href="#" data-section="site">Site Settings</a></li>
+                    </ul>
+                    <div class="cms-help">
+                        <h4>How to Use</h4>
+                        <p>1. Edit content in the forms</p>
+                        <p>2. Click "Save Changes"</p>
+                        <p>3. Download updated JSON</p>
+                        <p>4. Replace files in /content/</p>
+                        <p>5. Commit and push to GitHub</p>
+                    </div>
+                </aside>
+
+                <!-- Main Content Area -->
+                <div class="cms-content">
+                    <!-- Home Section -->
+                    <section id="section-home" class="cms-section active">
+                        <h2>Home Page Content</h2>
+                        <form id="form-home" class="cms-form">
+                            <div class="form-section">
+                                <h3>Hero Section</h3>
+                                <div class="form-group">
+                                    <label for="hero-title">Hero Title</label>
+                                    <input type="text" id="hero-title" name="hero.title">
+                                </div>
+                                <div class="form-group">
+                                    <label for="hero-subtitle">Hero Subtitle</label>
+                                    <textarea id="hero-subtitle" name="hero.subtitle" rows="3"></textarea>
+                                </div>
+                            </div>
+
+                            <div class="form-section">
+                                <h3>Features</h3>
+                                <div id="features-list" class="repeater-list"></div>
+                                <button type="button" class="btn btn-secondary" onclick="addFeature()">+ Add Feature</button>
+                            </div>
+
+                            <div class="form-actions">
+                                <button type="submit" class="btn btn-accent">Save Changes</button>
+                                <button type="button" class="btn btn-secondary" onclick="downloadJSON('home')">Download JSON</button>
+                            </div>
+                        </form>
+                    </section>
+
+                    <!-- About Section -->
+                    <section id="section-about" class="cms-section">
+                        <h2>About Page Content</h2>
+                        <form id="form-about" class="cms-form">
+                            <div class="form-section">
+                                <h3>Introduction</h3>
+                                <div class="form-group">
+                                    <label for="about-intro-title">Title</label>
+                                    <input type="text" id="about-intro-title" name="intro.title">
+                                </div>
+                                <div class="form-group">
+                                    <label for="about-intro-content">Content</label>
+                                    <textarea id="about-intro-content" name="intro.content" rows="3"></textarea>
+                                </div>
+                            </div>
+
+                            <div class="form-section">
+                                <h3>Stats</h3>
+                                <div id="stats-list" class="repeater-list"></div>
+                                <button type="button" class="btn btn-secondary" onclick="addStat()">+ Add Stat</button>
+                            </div>
+
+                            <div class="form-section">
+                                <h3>Objectives</h3>
+                                <div id="objectives-list" class="repeater-list"></div>
+                                <button type="button" class="btn btn-secondary" onclick="addObjective()">+ Add Objective</button>
+                            </div>
+
+                            <div class="form-actions">
+                                <button type="submit" class="btn btn-accent">Save Changes</button>
+                                <button type="button" class="btn btn-secondary" onclick="downloadJSON('about')">Download JSON</button>
+                            </div>
+                        </form>
+                    </section>
+
+                    <!-- News Section -->
+                    <section id="section-news" class="cms-section">
+                        <h2>News Articles</h2>
+                        <form id="form-news" class="cms-form">
+                            <div id="news-list" class="repeater-list"></div>
+                            <button type="button" class="btn btn-secondary" onclick="addNewsArticle()">+ Add Article</button>
+
+                            <div class="form-actions">
+                                <button type="submit" class="btn btn-accent">Save Changes</button>
+                                <button type="button" class="btn btn-secondary" onclick="downloadJSON('news')">Download JSON</button>
+                            </div>
+                        </form>
+                    </section>
+
+                    <!-- Team Section -->
+                    <section id="section-team" class="cms-section">
+                        <h2>Team Members</h2>
+                        <form id="form-team" class="cms-form">
+                            <div id="team-list" class="repeater-list"></div>
+                            <button type="button" class="btn btn-secondary" onclick="addTeamMember()">+ Add Team Member</button>
+
+                            <div class="form-actions">
+                                <button type="submit" class="btn btn-accent">Save Changes</button>
+                                <button type="button" class="btn btn-secondary" onclick="downloadJSON('team')">Download JSON</button>
+                            </div>
+                        </form>
+                    </section>
+
+                    <!-- Organizations Section -->
+                    <section id="section-organizations" class="cms-section">
+                        <h2>Partner Organizations</h2>
+                        <form id="form-organizations" class="cms-form">
+                            <div id="organizations-list" class="repeater-list"></div>
+                            <button type="button" class="btn btn-secondary" onclick="addOrganization()">+ Add Organization</button>
+
+                            <div class="form-actions">
+                                <button type="submit" class="btn btn-accent">Save Changes</button>
+                                <button type="button" class="btn btn-secondary" onclick="downloadJSON('team')">Download JSON</button>
+                            </div>
+                        </form>
+                    </section>
+
+                    <!-- Site Settings Section -->
+                    <section id="section-site" class="cms-section">
+                        <h2>Site Settings</h2>
+                        <form id="form-site" class="cms-form">
+                            <div class="form-section">
+                                <h3>General Settings</h3>
+                                <div class="form-group">
+                                    <label for="site-name">Site Name</label>
+                                    <input type="text" id="site-name" name="siteName">
+                                </div>
+                                <div class="form-group">
+                                    <label for="site-title">Site Title</label>
+                                    <input type="text" id="site-title" name="siteTitle">
+                                </div>
+                                <div class="form-group">
+                                    <label for="site-description">Site Description</label>
+                                    <textarea id="site-description" name="siteDescription" rows="2"></textarea>
+                                </div>
+                            </div>
+
+                            <div class="form-section">
+                                <h3>Footer</h3>
+                                <div class="form-group">
+                                    <label for="footer-description">Footer Description</label>
+                                    <textarea id="footer-description" name="footer.description" rows="3"></textarea>
+                                </div>
+                            </div>
+
+                            <div class="form-section">
+                                <h3>Contact Information</h3>
+                                <div class="form-group">
+                                    <label for="contact-email">Email</label>
+                                    <input type="email" id="contact-email" name="contact.email">
+                                </div>
+                                <div class="form-group">
+                                    <label for="contact-address">Address</label>
+                                    <textarea id="contact-address" name="contact.address" rows="3"></textarea>
+                                </div>
+                            </div>
+
+                            <div class="form-section">
+                                <h3>Social Media</h3>
+                                <div class="form-group">
+                                    <label for="social-twitter">Twitter/X URL</label>
+                                    <input type="url" id="social-twitter" name="social.twitter">
+                                </div>
+                                <div class="form-group">
+                                    <label for="social-linkedin">LinkedIn URL</label>
+                                    <input type="url" id="social-linkedin" name="social.linkedin">
+                                </div>
+                                <div class="form-group">
+                                    <label for="social-github">GitHub URL</label>
+                                    <input type="url" id="social-github" name="social.github">
+                                </div>
+                            </div>
+
+                            <div class="form-actions">
+                                <button type="submit" class="btn btn-accent">Save Changes</button>
+                                <button type="button" class="btn btn-secondary" onclick="downloadJSON('site')">Download JSON</button>
+                            </div>
+                        </form>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Toast Notification -->
+    <div id="toast" class="toast"></div>
+
+    <script src="cms.js"></script>
+</body>
+</html>
